@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "ids-560-project-group-1-bosch",
+  "private_key_id": "0cfd7c937690c66a3d85f935ed2f417ef5cd9d3c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC8as7yJ4CkoRyN\nrs9kdqxEABqUNHB9jvuHmXTQj1eSikudLRxX1RBfkBVjY1PyqIM5/h7W8+vOYUep\nd+sH94dVvF0V6stcN6tGiS2nvOp6V2U9AtivXEA4PkBi0FOMXNEI+p+stAFblSfv\n+6fkisPNBA4KCe0pIIk2TpnKkfn/w7JRRcSEmlxMNooHLYaRvLD384wB0tMnkG19\nOBtouOOdRqmOGSZHFqp6YuHvtuB4A7QxJANqOqrB9Y4apmNztBP/xe0g1Ihso6+X\nkEy51QwBq/gZUSAHogikT/V+UDReqriwbdgyVQi8h7Xa1YmAiYxSIJ17Nojo+nba\nwqsRTD/XAgMBAAECggEATAkwZYGyhP1th/HNSQYpI7IFB90XrlvWvtSbUxUdqon7\n1LyhLQLTPjVnpDmv5YPCnVMjf+xks18Hq+i0ZP0r1NoUmKUtlxPyHx952LDA0UlW\nliYBatcoJWpd0mKu7LyCMQTvDiOATsSlHtAoY27qcGBcCAoUdp3mMY/LuXdqc5+F\nGNwNaTEMKociy/gFHzKbi4DuAOvqj0v1yLoaM/jUw95xFpTZZwMJoo9X0/WQlqdw\nKTEK/S2wjc5nEm/caH2tTI8q74hjF1V57hTxjIZcfJzMOSmH/0afeBvpg5KQnI8a\nRgnxQ7c/OfXhvvbtu2rfBmdB/4/FICjzhZbkuAAQOQKBgQDgFw/GyQACvHsgWV+P\nTK6H7DdQDfbZGGbOyAP5q46YJEoI8XzLK3lia15203UWkIsgydS2sKXSgxAj7tOJ\ne3uFbyETIaMDhjQUdpVag9IGBZHTL68yxXJ6UAJzKEez9wWsxMiogXl8N63+QHqp\nl+ZzUcjA2y68t/3tpbxeNFbh+QKBgQDXP1W0HhGPTTYVX7O2zUOGtX7cZIK9vTDq\n5M8MhAp+xHiH60M4zM8SWchHyWklMdzqdJLYwwCzpHqIxk9Z8wMzTI7sLY4s66hN\nKNJpZ8LAQ2Et3xbKlVnwu/eT49yzJ0/0icSzMhvMKPYerpfeUqHOVd+0pABWdGxV\nQuuhTcGkTwKBgGFopOr8JI0L8Vm2f9uCsbtT6xdZepwUB1yLhW7aLDnmTGhm0KBg\nXXtywLVWZedRHak7EsP3NZ20ayezgTCaBK+UBwSR8pJtm+XpRjL6ailD8oeiir2/\nJmwUq3vzXnfUQRtAzxiwb2aXrYJ/9NITvZETU/jBTieqsy7ChIdOqRXBAoGBAJeH\n3dTcai5BA/cOFZ12abhW40VSePwMSXjDtcMw3Zaax+OfywYcoRZhIG7xKtVlggmI\nIaz5su/EtgK94TUIsFMX7XH1LCcRi70uJNrRkjf591rst8XMWLHyEfwKKN/yqAYW\nSuSAPTOADqxQ61c3QvPYXpFz90zlzzJC11EKRW1fAoGBAJ30w609zoWTtRDcn51G\nr5cBfreaRvy62BonEe1W7SgwKKl47/RQPK56b8W5miYb2OZcQN1gjwacDh6X3QQE\nTe9rglV+5k9fGcO4aHjMJcwzq4nzggU8GL+I7B97rY9DjVxm4OK21n6LmTgaT1z7\nTj+rGP7pH7JM5vN4D31Ko5pG\n-----END PRIVATE KEY-----\n",
+  "client_email": "capstone-local-vertexai@ids-560-project-group-1-bosch.iam.gserviceaccount.com",
+  "client_id": "103545313142638278866",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/capstone-local-vertexai%40ids-560-project-group-1-bosch.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
