@@ -1,0 +1,1 @@
+{"model_name": "all-MiniLM-L6-v2", "features_to_embed": ["topics", "summary", "parent", "children"], "dimension": 384}

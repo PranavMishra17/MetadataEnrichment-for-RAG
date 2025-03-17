@@ -1,0 +1,128 @@
+{
+  "per_query": [
+    {
+      "question": "How does S3 on Outposts differ from standard Amazon S3, and what are the key considerations for its use in hybrid cloud environments?",
+      "metrics": {
+        "bleu": 0.0001851285474922827,
+        "rouge1_f": 0.09638553986935698,
+        "rouge2_f": 0.02469135586038733,
+        "rougeL_f": 0.09638553986935698,
+        "faithfulness": 0.5,
+        "hallucination_rate": 0.5,
+        "coverage": -0.015190493315458298
+      }
+    },
+    {
+      "question": "Debug the following issue: An S3 on Outposts bucket policy returns an `Access Denied` error for cross-account operations. What might be missing in the policy, and how can it be fixed?",
+      "metrics": {
+        "bleu": 0.01856843438824179,
+        "rouge1_f": 0.12300683226475059,
+        "rouge2_f": 0.059360729161610504,
+        "rougeL_f": 0.0933940760005137,
+        "faithfulness": 0.4772727272727273,
+        "hallucination_rate": 0.5227272727272727,
+        "coverage": 0.22982913255691528
+      }
+    },
+    {
+      "question": "A user is unable to access an S3 on Outposts bucket from a different VPC using PrivateLink. Outline the steps to troubleshoot and resolve the issue.",
+      "metrics": {
+        "bleu": 9.797249722544173e-05,
+        "rouge1_f": 0.08888888674320992,
+        "rouge2_f": 0.022727270712810096,
+        "rougeL_f": 0.08888888674320992,
+        "faithfulness": 0.4,
+        "hallucination_rate": 0.6,
+        "coverage": 0.016029007732868195
+      }
+    },
+    {
+      "question": "Describe how to create an S3 on Outposts bucket, add tags, and configure a bucket policy using the AWS CLI.",
+      "metrics": {
+        "bleu": 0.0004543819705730263,
+        "rouge1_f": 0.09090908813131321,
+        "rouge2_f": 0.0,
+        "rougeL_f": 0.09090908813131321,
+        "faithfulness": 0.5,
+        "hallucination_rate": 0.5,
+        "coverage": -0.04996100813150406
+      }
+    },
+    {
+      "question": "What limitations exist when using multipart uploads with S3 on Outposts buckets?",
+      "metrics": {
+        "bleu": 0.0006536516425017215,
+        "rouge1_f": 0.09677419062955263,
+        "rouge2_f": 0.0,
+        "rougeL_f": 0.09677419062955263,
+        "faithfulness": 0.4,
+        "hallucination_rate": 0.6,
+        "coverage": -0.00980590470135212
+      }
+    }
+  ],
+  "aggregated": {
+    "bleu": [
+      0.0001851285474922827,
+      0.01856843438824179,
+      9.797249722544173e-05,
+      0.0004543819705730263,
+      0.0006536516425017215
+    ],
+    "rouge1_f": [
+      0.09638553986935698,
+      0.12300683226475059,
+      0.08888888674320992,
+      0.09090908813131321,
+      0.09677419062955263
+    ],
+    "rouge2_f": [
+      0.02469135586038733,
+      0.059360729161610504,
+      0.022727270712810096,
+      0.0,
+      0.0
+    ],
+    "rougeL_f": [
+      0.09638553986935698,
+      0.0933940760005137,
+      0.08888888674320992,
+      0.09090908813131321,
+      0.09677419062955263
+    ],
+    "faithfulness": [
+      0.5,
+      0.4772727272727273,
+      0.4,
+      0.5,
+      0.4
+    ],
+    "hallucination_rate": [
+      0.5,
+      0.5227272727272727,
+      0.6,
+      0.5,
+      0.6
+    ],
+    "coverage": [
+      -0.015190493315458298,
+      0.22982913255691528,
+      0.016029007732868195,
+      -0.04996100813150406,
+      -0.00980590470135212
+    ]
+  },
+  "retrieval_metrics": {
+    "avg_retrieval_time": 5.871916103363037,
+    "avg_distance": 0.7510348649038694
+  },
+  "final_metrics": {
+    "bleu": 0.003991913809206852,
+    "rouge1_f": 0.09919290752763667,
+    "rouge2_f": 0.021355871146961587,
+    "rougeL_f": 0.09327035627478929,
+    "faithfulness": 0.45545454545454545,
+    "hallucination_rate": 0.5445454545454546,
+    "coverage": 0.0341801468282938
+  }
+}

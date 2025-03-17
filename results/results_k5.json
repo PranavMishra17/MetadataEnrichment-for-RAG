@@ -1,0 +1,3174 @@
+{
+  "k": 5,
+  "summary": {
+    "precision": 0.99,
+    "recall": 0.07764916749021793,
+    "mrr": 0.975,
+    "ndcg": 0.9880319784117851,
+    "avg_time": 2.705043351650238,
+    "avg_distance": 0.7352937428484809,
+    "avg_reranker_score": 2.0806490829586983
+  },
+  "questions": [
+    {
+      "question": "How does S3 on Outposts differ from standard Amazon S3, and what are the key considerations for its use in hybrid cloud environments?",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.07575757575757576,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.8869171142578125,
+        "avg_distance": 0.7048691232522024,
+        "avg_reranker_score": 2.191528871655464
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon S3 on Outposts User Guide\nHow is Amazon S3 on Outposts di\ufb00erent from Amazon \nS3?\nAmazon S3 on Outposts delivers object storage to your on-premi...",
+          "distance": 0.6987865576193288,
+          "reranker_score": 5.063804626464844,
+          "chunk_id": "chunk_17",
+          "topics": [
+            "outposts",
+            "s3",
+            "access",
+            "account",
+            "bucket"
+          ]
+        },
+        {
+          "content_preview": "Amazon S3 on Outposts User Guide\nWhat is Amazon S3 on Outposts?\nAWS Outposts is a fully managed service that o\ufb00ers the same AWS infrastructure, AWS se...",
+          "distance": 0.6691493070498458,
+          "reranker_score": 3.754629373550415,
+          "chunk_id": "chunk_7",
+          "topics": [
+            "outposts",
+            "s3",
+            "data",
+            "aws",
+            "create"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nAmazon S3 on Outposts \nadds direct local access for \napplicationsRun your applications outside \nthe AWS Outpo...",
+          "distance": 0.7035931187572879,
+          "reranker_score": 2.2409026622772217,
+          "chunk_id": "chunk_2451",
+          "topics": [
+            "access",
+            "point",
+            "s3",
+            "data",
+            "amazon"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nThe AWS SDKs provide a convenient way to create programmatic access to S3 and AWS. Amazon \nS3 is a REST servi...",
+          "distance": 0.7341401554582909,
+          "reranker_score": 0.1513780802488327,
+          "chunk_id": "chunk_29",
+          "topics": [
+            "requests",
+            "s3",
+            "amazon",
+            "api",
+            "aws"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nWhat is Amazon S3?\nAmazon Simple Storage Service (Amazon S3) is an object storage service that o\ufb00ers industry...",
+          "distance": 0.718676477376259,
+          "reranker_score": -0.2530703842639923,
+          "chunk_id": "chunk_16",
+          "topics": [
+            "s3",
+            "data",
+            "amazon",
+            "zone",
+            "directory"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Debug the following issue: An S3 on Outposts bucket policy returns an `Access Denied` error for cross-account operations. What might be missing in the policy, and how can it be fixed?",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.0625,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.730982542037964,
+        "avg_distance": 0.8005161242989252,
+        "avg_reranker_score": 1.1601648569107055
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon Simple Storage Service API Reference\nGetBucketPolicy\nService: Amazon S3 Control\nNote\nThis action gets a bucket policy for an Amazon S3 on Outpo...",
+          "distance": 0.782851685611839,
+          "reranker_score": 3.490405559539795,
+          "chunk_id": "chunk_925",
+          "topics": [
+            "outposts",
+            "bucket",
+            "s3",
+            "account",
+            "action"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service API Reference\nPutBucketPolicy\nService: Amazon S3 Control\nNote\nThis action puts a bucket policy to an Amazon S3 on Outpos...",
+          "distance": 0.8132531259400135,
+          "reranker_score": 2.731947183609009,
+          "chunk_id": "chunk_1041",
+          "topics": [
+            "outposts",
+            "bucket",
+            "s3",
+            "action",
+            "policy"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service API Reference\nGetBucket\nService: Amazon S3 Control\nGets an Amazon S3 on Outposts bucket. For more information, see  Usin...",
+          "distance": 0.7789449114343755,
+          "reranker_score": 1.4880905151367188,
+          "chunk_id": "chunk_916",
+          "topics": [
+            "outposts",
+            "s3",
+            "bucket",
+            "account",
+            "permissions"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n6. On the Edit bucket policy page, do one of the following:\n\u2022To see examples of bucket policies, choose Polic...",
+          "distance": 0.8111783879891815,
+          "reranker_score": -0.6939496994018555,
+          "chunk_id": "chunk_914",
+          "topics": [
+            "policy",
+            "choose",
+            "bucket",
+            "policies",
+            "add"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service API Reference\nSetBucketAccessControlPolicy (SOAP API)\nNote\nSOAP support over HTTP is deprecated, but it is still availab...",
+          "distance": 0.8163525105192162,
+          "reranker_score": -1.2156692743301392,
+          "chunk_id": "chunk_2850",
+          "topics": [
+            "policy",
+            "access",
+            "bucket",
+            "signature",
+            "control"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "A user is unable to access an S3 on Outposts bucket from a different VPC using PrivateLink. Outline the steps to troubleshoot and resolve the issue.",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.06329113924050633,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.7377188205718994,
+        "avg_distance": 0.7532011551551717,
+        "avg_reranker_score": -0.9736229300498962
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nThe following examples show the format for di\ufb00erent types of access denied error messages and \nhow to trouble...",
+          "distance": 0.7538821863509295,
+          "reranker_score": 1.133358359336853,
+          "chunk_id": "chunk_1041",
+          "topics": [
+            "action",
+            "policy",
+            "control",
+            "user",
+            "access"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nThe AWS account owner or bucket owner must make a static website publicly \navailable\nWith S3, you can host a ...",
+          "distance": 0.7512334327364298,
+          "reranker_score": -0.46214574575424194,
+          "chunk_id": "chunk_835",
+          "topics": [
+            "amazon",
+            "access",
+            "public",
+            "s3",
+            "bucket"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n\u2022Provide access control options, such as bucket policies, access control lists (ACLs), and S3 Access \nPoints,...",
+          "distance": 0.7533000512054956,
+          "reranker_score": -1.2472128868103027,
+          "chunk_id": "chunk_22",
+          "topics": [
+            "object",
+            "bucket",
+            "s3",
+            "key",
+            "objects"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n        } catch (AmazonServiceException e) { \n            // The call was transmitted successfully, but Amazo...",
+          "distance": 0.7542908160093503,
+          "reranker_score": -1.7876383066177368,
+          "chunk_id": "chunk_212",
+          "topics": [
+            "using",
+            "multipart",
+            "copy",
+            "amazon",
+            "s3"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nActionRequired permissions\nList PartsYou must be allowed to perform the s3:ListMultipartUploadParts\naction to...",
+          "distance": 0.7532992894736532,
+          "reranker_score": -2.5044760704040527,
+          "chunk_id": "chunk_166",
+          "topics": [
+            "multipart",
+            "kms",
+            "upload",
+            "action",
+            "list"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Describe how to create an S3 on Outposts bucket, add tags, and configure a bucket policy using the AWS CLI.",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.05405405405405406,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.8818881511688232,
+        "avg_distance": 0.7524902159727305,
+        "avg_reranker_score": 6.296163558959961
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon S3 on Outposts User Guide\n13. (Optional) Specify the Outpost access point policy. The console automatically displays the\nAmazon Resource Name (...",
+          "distance": 0.7657158521638159,
+          "reranker_score": 7.916286468505859,
+          "chunk_id": "chunk_37",
+          "topics": [
+            "bucket",
+            "example",
+            "outposts",
+            "s3control",
+            "string"
+          ]
+        },
+        {
+          "content_preview": "Amazon S3 on Outposts User Guide\n    return respCreateBucket.getBucketArn();\n}\nAdding tags for S3 on Outposts buckets\nYou can add tags for your Amazon...",
+          "distance": 0.6968643673251421,
+          "reranker_score": 7.4397969245910645,
+          "chunk_id": "chunk_38",
+          "topics": [
+            "choose",
+            "console",
+            "s3",
+            "outposts",
+            "aws"
+          ]
+        },
+        {
+          "content_preview": "Amazon S3 on Outposts User Guide\n\u2022Deleting the bucket policy for your Amazon S3 on Outposts bucket\n\u2022Bucket policy examples\nAdding or editing a bucket ...",
+          "distance": 0.7581485982425754,
+          "reranker_score": 7.156688213348389,
+          "chunk_id": "chunk_40",
+          "topics": [
+            "policy",
+            "bucket",
+            "console",
+            "aws",
+            "outposts"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nNote\nTo create an Object Lock enabled bucket, you must have the following \npermissions: s3:CreateBucket , s3:...",
+          "distance": 0.7743914000143863,
+          "reranker_score": 4.691603183746338,
+          "chunk_id": "chunk_40",
+          "topics": [
+            "upload",
+            "choose",
+            "bucket",
+            "object",
+            "s3"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nRestrict which object tag keys that users can add\nThe following example policy grants a user permission to pe...",
+          "distance": 0.7673308621177319,
+          "reranker_score": 4.276443004608154,
+          "chunk_id": "chunk_925",
+          "topics": [
+            "key",
+            "add",
+            "tags",
+            "keys",
+            "action"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "What limitations exist when using multipart uploads with S3 on Outposts buckets?",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.06097560975609756,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.578942060470581,
+        "avg_distance": 0.6967801966172547,
+        "avg_reranker_score": 1.7035548090934753
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nActionRequired permissions\nList PartsYou must be allowed to perform the s3:ListMultipartUploadParts\naction to...",
+          "distance": 0.6954833283793045,
+          "reranker_score": 3.2918057441711426,
+          "chunk_id": "chunk_166",
+          "topics": [
+            "multipart",
+            "kms",
+            "upload",
+            "action",
+            "list"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n\u2022Viewing the properties for an S3 bucket\n\u2022Emptying a bucket\n\u2022Deleting a bucket\n\u2022Working with Mountpoint for A...",
+          "distance": 0.7343467388098893,
+          "reranker_score": 2.4848806858062744,
+          "chunk_id": "chunk_53",
+          "topics": [
+            "bucket",
+            "s3",
+            "buckets",
+            "amazon",
+            "aws"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nThe following PHP example uploads a \ufb01le to an Amazon S3 bucket. The example demonstrates \nhow to set paramete...",
+          "distance": 0.7322831957789881,
+          "reranker_score": 1.0963399410247803,
+          "chunk_id": "chunk_180",
+          "topics": [
+            "upload",
+            "import",
+            "multipart",
+            "bucket",
+            "s3"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n        } catch (AmazonServiceException e) { \n            // The call was transmitted successfully, but Amazo...",
+          "distance": 0.7297655093735037,
+          "reranker_score": 0.8228769898414612,
+          "chunk_id": "chunk_212",
+          "topics": [
+            "using",
+            "multipart",
+            "copy",
+            "amazon",
+            "s3"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nUploading an object using multipart upload\nYou can use the multipart upload to programmatically upload a sing...",
+          "distance": 0.5920222107445876,
+          "reranker_score": 0.8218706846237183,
+          "chunk_id": "chunk_171",
+          "topics": [
+            "upload",
+            "multipart",
+            "object",
+            "aws",
+            "using"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "A Java application fails to upload an object to an S3 on Outposts bucket due to a `400 Bad Request` error. What common misconfigurations should be checked in the SDK setup?",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.056179775280898875,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.665395498275757,
+        "avg_distance": 0.8035504232750835,
+        "avg_reranker_score": -0.39467830657958985
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n  # @param object [Aws::S3::Object] An existing Amazon S3 object. \n  def initialize(object) \n    @object = ob...",
+          "distance": 0.811697543111826,
+          "reranker_score": 0.36503443121910095,
+          "chunk_id": "chunk_155",
+          "topics": [
+            "object",
+            "upload",
+            "s3",
+            "new",
+            "aws"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nVersion ID\nWhen you enable S3 Versioning in a bucket, Amazon S3 generates a unique version ID for each \nobjec...",
+          "distance": 0.8050408501263531,
+          "reranker_score": -0.14888712763786316,
+          "chunk_id": "chunk_23",
+          "topics": [
+            "access",
+            "bucket",
+            "policy",
+            "objects",
+            "points"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nNext step\nTo view your object, see Step 3: Download an object.\nStep 3: Download an object\nAfter you upload an...",
+          "distance": 0.7944506689252636,
+          "reranker_score": -0.44561731815338135,
+          "chunk_id": "chunk_41",
+          "topics": [
+            "object",
+            "console",
+            "s3",
+            "directory",
+            "buckets"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n\u2022Veri\ufb01es that transfer acceleration is enabled for the speci\ufb01ed bucket.\n\u2022Uploads a new object to the speci\ufb01ed...",
+          "distance": 0.7935744731645811,
+          "reranker_score": -0.5250309705734253,
+          "chunk_id": "chunk_116",
+          "topics": [
+            "import",
+            "amazonaws",
+            "com",
+            "string",
+            "new"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n\u2022Default encryption \u2013 Enabling default encryption provides you with automatic server-side \nencryption. Amazon...",
+          "distance": 0.8129885810473945,
+          "reranker_score": -1.2188905477523804,
+          "chunk_id": "chunk_89",
+          "topics": [
+            "server",
+            "s3",
+            "default",
+            "data",
+            "console"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "What are the differences between private and shared endpoints in S3 on Outposts, and how do these choices impact latency?",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.0641025641025641,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.6766040325164795,
+        "avg_distance": 0.7045006061650637,
+        "avg_reranker_score": -6.1478228092193605
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nsteps of hosting a website on Amazon S3, see Tutorial: Con\ufb01guring a static website on Amazon \nS3.\nTo host a s...",
+          "distance": 0.7088719148599697,
+          "reranker_score": -3.0679476261138916,
+          "chunk_id": "chunk_65",
+          "topics": [
+            "multi",
+            "access",
+            "points",
+            "region",
+            "s3"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\ndata at the lowest costs in S3 Glacier Instant Retrieval, S3 Glacier Flexible Retrieval, and S3 Glacier \nDeep...",
+          "distance": 0.7035044686229626,
+          "reranker_score": -4.270810127258301,
+          "chunk_id": "chunk_17",
+          "topics": [
+            "access",
+            "zone",
+            "s3",
+            "data",
+            "storage"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n                    new GetBucketAccelerateConfigurationRequest(bucketName)) \n                    .getStatus(...",
+          "distance": 0.7045018669503504,
+          "reranker_score": -7.673093795776367,
+          "chunk_id": "chunk_117",
+          "topics": [
+            "using",
+            "amazon",
+            "s3",
+            "bucket",
+            "example"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n        } catch (AmazonServiceException e) { \n            // The call was transmitted successfully, but Amazo...",
+          "distance": 0.702230745274232,
+          "reranker_score": -7.79119873046875,
+          "chunk_id": "chunk_212",
+          "topics": [
+            "using",
+            "multipart",
+            "copy",
+            "amazon",
+            "s3"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nThe AWS SDKs provide a convenient way to create programmatic access to S3 and AWS. Amazon \nS3 is a REST servi...",
+          "distance": 0.7033940351178043,
+          "reranker_score": -7.936063766479492,
+          "chunk_id": "chunk_29",
+          "topics": [
+            "requests",
+            "s3",
+            "amazon",
+            "api",
+            "aws"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Walk through the process of configuring strong consistency for S3 on Outposts objects.",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.05747126436781609,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.6649200916290283,
+        "avg_distance": 0.732249537529853,
+        "avg_reranker_score": -3.4790106296539305
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\ndata at the lowest costs in S3 Glacier Instant Retrieval, S3 Glacier Flexible Retrieval, and S3 Glacier \nDeep...",
+          "distance": 0.7307579467110399,
+          "reranker_score": -1.53004789352417,
+          "chunk_id": "chunk_17",
+          "topics": [
+            "access",
+            "zone",
+            "s3",
+            "data",
+            "storage"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nold one. If S3 Versioning is enabled, a new version of the object is created, and the existing \nobject become...",
+          "distance": 0.7324032280557418,
+          "reranker_score": -3.1995937824249268,
+          "chunk_id": "chunk_145",
+          "topics": [
+            "upload",
+            "choose",
+            "object",
+            "console",
+            "s3"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n\u2022Viewing the properties for an S3 bucket\n\u2022Emptying a bucket\n\u2022Deleting a bucket\n\u2022Working with Mountpoint for A...",
+          "distance": 0.734185315536547,
+          "reranker_score": -3.884333610534668,
+          "chunk_id": "chunk_53",
+          "topics": [
+            "bucket",
+            "s3",
+            "buckets",
+            "amazon",
+            "aws"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n\u2022IAM Access Analyzer for S3 \u2013 Evaluate and monitor your S3 bucket access policies, ensuring that \nthe policie...",
+          "distance": 0.7323806537109837,
+          "reranker_score": -4.0278520584106445,
+          "chunk_id": "chunk_19",
+          "topics": [
+            "s3",
+            "amazon",
+            "data",
+            "access",
+            "aws"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nGetting started with Amazon S3\nYou can get started with Amazon S3 by working with buckets and objects. A buck...",
+          "distance": 0.7315205436349526,
+          "reranker_score": -4.753225803375244,
+          "chunk_id": "chunk_31",
+          "topics": [
+            "s3",
+            "amazon",
+            "aws",
+            "directory",
+            "information"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Explain how to integrate S3 on Outposts with AWS Identity and Access Management (IAM) for fine-grained access control.",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.06578947368421052,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.852006673812866,
+        "avg_distance": 0.7512426917840587,
+        "avg_reranker_score": 5.36273832321167
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon S3 on Outposts User Guide\n\u2022AWS Identity and Access Management (IAM) \u2013 IAM is a web service that helps you securely \ncontrol access to AWS resou...",
+          "distance": 0.6496109173348122,
+          "reranker_score": 6.799973964691162,
+          "chunk_id": "chunk_12",
+          "topics": [
+            "s3",
+            "outposts",
+            "aws",
+            "access",
+            "iam"
+          ]
+        },
+        {
+          "content_preview": "Amazon S3 on Outposts User Guide\nand authorized (have permissions) to use Amazon S3 on Outposts resources. IAM is an AWS service \nthat you can use wit...",
+          "distance": 0.7780775952196098,
+          "reranker_score": 5.948651313781738,
+          "chunk_id": "chunk_120",
+          "topics": [
+            "iam",
+            "point",
+            "access",
+            "policy",
+            "permissions"
+          ]
+        },
+        {
+          "content_preview": "Amazon S3 on Outposts User Guide\n5. On the page with a selected route table, choose Actions, and then choose Edit routes.\n6. On the Edit routes page, ...",
+          "distance": 0.7891682234051984,
+          "reranker_score": 4.9179158210754395,
+          "chunk_id": "chunk_164",
+          "topics": [
+            "iam",
+            "role",
+            "choose",
+            "destination",
+            "replication"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nThe AWS account owner or admin role wants to grant bucket, pre\ufb01x, or object \naccess directly to users or grou...",
+          "distance": 0.8070183664779154,
+          "reranker_score": 4.684415340423584,
+          "chunk_id": "chunk_837",
+          "topics": [
+            "access",
+            "bucket",
+            "directory",
+            "owner",
+            "grants"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nAWS accounts or IAM identities permissions for the bucket and the objects in it. Many S3 access \nmanagement u...",
+          "distance": 0.7323383564827577,
+          "reranker_score": 4.462735176086426,
+          "chunk_id": "chunk_1433",
+          "topics": [
+            "access",
+            "identity",
+            "points",
+            "policies",
+            "grants"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "A user reports slow upload speeds to S3 on Outposts over a cross-account Elastic Network Interface. What optimizations can improve performance?",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.06329113924050633,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.725297689437866,
+        "avg_distance": 0.7861097976596334,
+        "avg_reranker_score": -3.948533129692078
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nUse Amazon S3 Transfer Acceleration to minimize latency caused by \ndistance\nCon\ufb01guring fast, secure \ufb01le trans...",
+          "distance": 0.7837394691490072,
+          "reranker_score": 1.489617943763733,
+          "chunk_id": "chunk_2315",
+          "topics": [
+            "amazon",
+            "s3",
+            "requests",
+            "use",
+            "using"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nupfront, so you can develop and deploy applications faster. You can use Amazon EC2 to launch \nas many or as f...",
+          "distance": 0.779668051107671,
+          "reranker_score": -4.6333723068237305,
+          "chunk_id": "chunk_28",
+          "topics": [
+            "aws",
+            "command",
+            "amazon",
+            "console",
+            "s3"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n\u2022Viewing the properties for an S3 bucket\n\u2022Emptying a bucket\n\u2022Deleting a bucket\n\u2022Working with Mountpoint for A...",
+          "distance": 0.788549773314336,
+          "reranker_score": -4.933794021606445,
+          "chunk_id": "chunk_53",
+          "topics": [
+            "bucket",
+            "s3",
+            "buckets",
+            "amazon",
+            "aws"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nVersion ID\nWhen you enable S3 Versioning in a bucket, Amazon S3 generates a unique version ID for each \nobjec...",
+          "distance": 0.7867679004024051,
+          "reranker_score": -5.495007514953613,
+          "chunk_id": "chunk_23",
+          "topics": [
+            "access",
+            "bucket",
+            "policy",
+            "objects",
+            "points"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nS3 Object Lock to set retention periods, prevent deletions and overwrites, and meet compliance \nrequirements....",
+          "distance": 0.7918237943247476,
+          "reranker_score": -6.170109748840332,
+          "chunk_id": "chunk_48",
+          "topics": [
+            "s3",
+            "amazon",
+            "cli",
+            "use",
+            "aws"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "What are the different types of retrieval options available in S3 Glacier, and when should each be used?",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.07142857142857142,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.837019681930542,
+        "avg_distance": 0.6953454409999682,
+        "avg_reranker_score": 3.450728750228882
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon S3 Glacier Developer Guide\nS3 Glacier Data Retrieval Policies\nWith Amazon S3 Glacier data retrieval policies, you can easily set data retrieval...",
+          "distance": 0.7178762778305648,
+          "reranker_score": 4.118271827697754,
+          "chunk_id": "chunk_332",
+          "topics": [
+            "retrieval",
+            "data",
+            "policy",
+            "set",
+            "s3"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nSome S3 Glacier storage classes are archival, which means the objects stored in those classes are \narchived a...",
+          "distance": 0.5897498618720122,
+          "reranker_score": 3.9958627223968506,
+          "chunk_id": "chunk_1818",
+          "topics": [
+            "s3",
+            "class",
+            "access",
+            "storage",
+            "data"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nHowever, to ensure that the S3 Glacier Flexible Retrieval or S3 Glacier Deep Archive storage class is \napprop...",
+          "distance": 0.7419636994649093,
+          "reranker_score": 3.1585326194763184,
+          "chunk_id": "chunk_1821",
+          "topics": [
+            "s3",
+            "class",
+            "objects",
+            "storage",
+            "data"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nMetric Description\n\u2022S3 One Zone-Infrequent Access (ONEZONE_IA )\n\u2022Reduced Redundancy Storage (RRS) (REDUCED_RE...",
+          "distance": 0.7423842155422726,
+          "reranker_score": 3.031826972961426,
+          "chunk_id": "chunk_2007",
+          "topics": [
+            "zone",
+            "s3",
+            "access",
+            "storage",
+            "bucket"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nUsage Type Units Granulari \ntyDescription\nregion-Requests-GDA-Tier5 Count Hourly The number of Bulk S3 \nGlaci...",
+          "distance": 0.6847531502900819,
+          "reranker_score": 2.9491496086120605,
+          "chunk_id": "chunk_1751",
+          "topics": [
+            "requests",
+            "region",
+            "copy",
+            "objects",
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "A developer's Java SDK script to upload an archive to S3 Glacier fails due to a `Missing Authentication Token` error. What could be the cause, and how can it be resolved?",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.058823529411764705,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.6488068103790283,
+        "avg_distance": 0.7624726228440155,
+        "avg_reranker_score": -3.426239037513733
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nThe minimum storage duration for objects in S3 Glacier Deep Archive storage class is 180 days.\nS3 Glacier Dee...",
+          "distance": 0.7706412324092763,
+          "reranker_score": -1.308585524559021,
+          "chunk_id": "chunk_1820",
+          "topics": [
+            "s3",
+            "copy",
+            "storage",
+            "object",
+            "class"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n                    new GetBucketAccelerateConfigurationRequest(bucketName)) \n                    .getStatus(...",
+          "distance": 0.7482252277945844,
+          "reranker_score": -3.3886773586273193,
+          "chunk_id": "chunk_117",
+          "topics": [
+            "using",
+            "amazon",
+            "s3",
+            "bucket",
+            "example"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n\u2022Veri\ufb01es that transfer acceleration is enabled for the speci\ufb01ed bucket.\n\u2022Uploads a new object to the speci\ufb01ed...",
+          "distance": 0.754434344974279,
+          "reranker_score": -3.5418477058410645,
+          "chunk_id": "chunk_116",
+          "topics": [
+            "import",
+            "amazonaws",
+            "com",
+            "string",
+            "new"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n.NET\nTo list all of the in-progress multipart uploads on a speci\ufb01c bucket, use the AWS SDK \nfor .NET low-leve...",
+          "distance": 0.7697229021478735,
+          "reranker_score": -3.9204368591308594,
+          "chunk_id": "chunk_198",
+          "topics": [
+            "multipart",
+            "upload",
+            "aws",
+            "bucket",
+            "list"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n  # @param object [Aws::S3::Object] An existing Amazon S3 object. \n  def initialize(object) \n    @object = ob...",
+          "distance": 0.7693394068940635,
+          "reranker_score": -4.9716477394104,
+          "chunk_id": "chunk_155",
+          "topics": [
+            "object",
+            "upload",
+            "s3",
+            "new",
+            "aws"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "How can an organization optimize data retrieval costs for large datasets stored in S3 Glacier?",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.07246376811594203,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.5988705158233643,
+        "avg_distance": 0.6641604751695609,
+        "avg_reranker_score": 3.406324768066406
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon S3 Glacier Developer Guide\nS3 Glacier Data Retrieval Policies\nWith Amazon S3 Glacier data retrieval policies, you can easily set data retrieval...",
+          "distance": 0.7133216187022337,
+          "reranker_score": 3.8972442150115967,
+          "chunk_id": "chunk_332",
+          "topics": [
+            "retrieval",
+            "data",
+            "policy",
+            "set",
+            "s3"
+          ]
+        },
+        {
+          "content_preview": "Amazon S3 Glacier Developer Guide\nuse a Max Retrieval Rate policy, S3 Glacier rejects retrieval requests that cause the peak retrieval \nrate of the in...",
+          "distance": 0.7199639912401719,
+          "reranker_score": 3.447592258453369,
+          "chunk_id": "chunk_333",
+          "topics": [
+            "retrieval",
+            "data",
+            "policy",
+            "set",
+            "region"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nHowever, to ensure that the S3 Glacier Flexible Retrieval or S3 Glacier Deep Archive storage class is \napprop...",
+          "distance": 0.6137450739792887,
+          "reranker_score": 3.264681100845337,
+          "chunk_id": "chunk_1821",
+          "topics": [
+            "s3",
+            "class",
+            "objects",
+            "storage",
+            "data"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n\u2022Storage overhead charges \u2013 When you transition objects to the S3 Glacier Flexible Retrieval \nor S3 Glacier D...",
+          "distance": 0.5288651989440354,
+          "reranker_score": 3.2126548290252686,
+          "chunk_id": "chunk_1845",
+          "topics": [
+            "s3",
+            "objects",
+            "object",
+            "data",
+            "storage"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nThese storage classes di\ufb00er as follows:\n\u2022S3 Standard-IA  \u2013 Amazon S3 stores the object data redundantly acros...",
+          "distance": 0.7449064929820745,
+          "reranker_score": 3.20945143699646,
+          "chunk_id": "chunk_1790",
+          "topics": [
+            "data",
+            "s3",
+            "zone",
+            "class",
+            "storage"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Describe the steps to configure vault notifications for S3 Glacier using the AWS CLI.",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.06329113924050633,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.7966668605804443,
+        "avg_distance": 0.7268696382564215,
+        "avg_reranker_score": 3.219564974308014
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon S3 Glacier Developer Guide\n            System.out.println(\"Notifications configuration deleted for vault: \" + \n vaultName); \n    }\n}\nCon\ufb01guring...",
+          "distance": 0.7501654354782921,
+          "reranker_score": 7.349165439605713,
+          "chunk_id": "chunk_90",
+          "topics": [
+            "noti\ufb01cation",
+            "vault",
+            "net",
+            "provide",
+            "using"
+          ]
+        },
+        {
+          "content_preview": "Amazon S3 Glacier Developer Guide\n\u2022To get a list of S3 Glacier vaults on the con\ufb01gured account, use the list-vaults\ncommand. Replace 123456789012  wit...",
+          "distance": 0.648704283871227,
+          "reranker_score": 5.660505294799805,
+          "chunk_id": "chunk_96",
+          "topics": [
+            "vault",
+            "aws",
+            "sns",
+            "glacier",
+            "inventory"
+          ]
+        },
+        {
+          "content_preview": "Amazon S3 Glacier Developer Guide\n    @staticmethod \n    def get_notification(vault): \n        \"\"\" \n        Gets the currently notification configurat...",
+          "distance": 0.7081755194203063,
+          "reranker_score": 5.25528621673584,
+          "chunk_id": "chunk_238",
+          "topics": [
+            "vault",
+            "sdk",
+            "code",
+            "examples",
+            "aws"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nIf your application automatically creates buckets, choose a bucket naming scheme that is unlikely \nto cause n...",
+          "distance": 0.7673255937347758,
+          "reranker_score": -0.9587838053703308,
+          "chunk_id": "chunk_64",
+          "topics": [
+            "bucket",
+            "buckets",
+            "s3",
+            "amazon",
+            "use"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n\u2022S3 Batch Operations  \u2013 Manage billions of objects at scale with a single S3 API request or a few \nclicks in ...",
+          "distance": 0.7599773587775066,
+          "reranker_score": -1.208348274230957,
+          "chunk_id": "chunk_18",
+          "topics": [
+            "access",
+            "policies",
+            "acls",
+            "s3",
+            "control"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "What are the prerequisites for locking a vault in S3 Glacier, and how does this feature enforce compliance?",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.06097560975609756,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.7565996646881104,
+        "avg_distance": 0.6943221695706856,
+        "avg_reranker_score": 4.42991452217102
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon S3 Glacier Developer Guide\nS3 Glacier Vault Lock\nThe following topics describe how to lock a vault in Amazon S3 Glacier and how to use Vault Lo...",
+          "distance": 0.6607413537232527,
+          "reranker_score": 6.36215353012085,
+          "chunk_id": "chunk_108",
+          "topics": [
+            "lock",
+            "vault",
+            "policy",
+            "policies",
+            "access"
+          ]
+        },
+        {
+          "content_preview": "Amazon S3 Glacier Developer Guide\n                           \"Resource\": [ \n                              \"arn:aws:glacier:us-west-2:999999999999:vaul...",
+          "distance": 0.7075031588708878,
+          "reranker_score": 4.606909275054932,
+          "chunk_id": "chunk_314",
+          "topics": [
+            "lock",
+            "policy",
+            "vault",
+            "policies",
+            "permissions"
+          ]
+        },
+        {
+          "content_preview": "Amazon S3 Glacier Developer Guide\nTo complete the vault lock You must run complete-vault-lock  within 24 hours else the vault \nlock policy is removed ...",
+          "distance": 0.6778444847043736,
+          "reranker_score": 4.3772101402282715,
+          "chunk_id": "chunk_112",
+          "topics": [
+            "lock",
+            "vault",
+            "policy",
+            "complete",
+            "initiate"
+          ]
+        },
+        {
+          "content_preview": "Amazon S3 Glacier Developer Guide\nIn contrast, you use a vault access policy to implement access controls that are not compliance \nrelated, temporary,...",
+          "distance": 0.6871290541935683,
+          "reranker_score": 4.292550086975098,
+          "chunk_id": "chunk_109",
+          "topics": [
+            "lock",
+            "vault",
+            "policy",
+            "complete",
+            "access"
+          ]
+        },
+        {
+          "content_preview": "Amazon S3 Glacier Developer Guide\nVault Access Policies\nAn Amazon S3 Glacier vault access policy is a resource-based policy that you can use to manage...",
+          "distance": 0.7383927963613455,
+          "reranker_score": 2.510749578475952,
+          "chunk_id": "chunk_312",
+          "topics": [
+            "permissions",
+            "vault",
+            "policy",
+            "account",
+            "lock"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Analyze why an AWS CLI command to delete a vault in S3 Glacier returns an error stating the vault is not empty.",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.07462686567164178,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.72060227394104,
+        "avg_distance": 0.7530718623954014,
+        "avg_reranker_score": 1.34950795173645
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon S3 Glacier Developer Guide\nDeleting a Vault in Amazon S3 Glacier Using the AWS Command Line \nInterface\nYou can delete empty and nonempty vaults...",
+          "distance": 0.6592707552082047,
+          "reranker_score": 5.832733631134033,
+          "chunk_id": "chunk_101",
+          "topics": [
+            "aws",
+            "cli",
+            "command",
+            "list",
+            "using"
+          ]
+        },
+        {
+          "content_preview": "Amazon S3 Glacier Developer Guide\nHTTP/1.1 204 No Content\nx-amzn-RequestId: AAABZpJrTyioDC_HsOmHae8EZp_uBSJr6cnGOLKp_XJCl-Q\nDate: Wed, 10 Feb 2017 12:...",
+          "distance": 0.75043830224773,
+          "reranker_score": 4.400690078735352,
+          "chunk_id": "chunk_387",
+          "topics": [
+            "vault",
+            "lock",
+            "delete",
+            "inventory",
+            "policy"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nIf versioning is enabled versioned objects will not be deleted in this process which would cause \nthe bucket ...",
+          "distance": 0.7868840418001539,
+          "reranker_score": 2.500393867492676,
+          "chunk_id": "chunk_99",
+          "topics": [
+            "s3",
+            "amazon",
+            "access",
+            "operations",
+            "objects"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n\u2022s3:DeleteBucket permissions \u2013 If you cannot delete a bucket, work with your IAM administrator \nto con\ufb01rm tha...",
+          "distance": 0.7828820926245101,
+          "reranker_score": -1.797764539718628,
+          "chunk_id": "chunk_95",
+          "topics": [
+            "delete",
+            "bucket",
+            "iam",
+            "permissions",
+            "s3"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n4. To verify that you've deleted the bucket, open the Buckets list and enter the name of the \nbucket that you...",
+          "distance": 0.785884120096408,
+          "reranker_score": -4.188513278961182,
+          "chunk_id": "chunk_96",
+          "topics": [
+            "import",
+            "amazonaws",
+            "com",
+            "bucket",
+            "delete"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Discuss how to secure data transfers to S3 Glacier in a multi-region AWS setup.",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.06329113924050633,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.6967999935150146,
+        "avg_distance": 0.7649113466331487,
+        "avg_reranker_score": 3.430722451210022
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon S3 Glacier Developer Guide\ncomprehensive security and compliance capabilities that can help you meet stringent regulatory \nrequirements. S3 Gla...",
+          "distance": 0.7021187273907048,
+          "reranker_score": 4.83297061920166,
+          "chunk_id": "chunk_288",
+          "topics": [
+            "data",
+            "s3",
+            "glacier",
+            "amazon",
+            "aws"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nUsage Type Units Granulari \ntyDescription\nregiongroup1-regiongroup2- -\nMRAP-In-BytesGB Hourly The amount of d...",
+          "distance": 0.775729241264925,
+          "reranker_score": 4.1578521728515625,
+          "chunk_id": "chunk_1746",
+          "topics": [
+            "copy",
+            "region",
+            "operation",
+            "data",
+            "s3"
+          ]
+        },
+        {
+          "content_preview": "Amazon S3 Glacier Developer Guide\nResilience in Amazon S3 Glacier\nThe AWS global infrastructure is built around Regions and Availability Zones. AWS Re...",
+          "distance": 0.7562943872345887,
+          "reranker_score": 3.5488057136535645,
+          "chunk_id": "chunk_330",
+          "topics": [
+            "data",
+            "aws",
+            "s3",
+            "glacier",
+            "provide"
+          ]
+        },
+        {
+          "content_preview": "Amazon S3 Glacier Developer Guide\nInfrastructure Security in Amazon S3 Glacier\nAs a managed service, Amazon S3 Glacier (S3 Glacier) is protected by th...",
+          "distance": 0.7987130441017167,
+          "reranker_score": 3.2886300086975098,
+          "chunk_id": "chunk_331",
+          "topics": [
+            "access",
+            "s3",
+            "services",
+            "aws",
+            "amazon"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nNote\nWhen you restore an archive, you are paying for both the archive (S3 Glacier Flexible \nRetrieval or S3 G...",
+          "distance": 0.7917013331738088,
+          "reranker_score": 1.325353741645813,
+          "chunk_id": "chunk_1822",
+          "topics": [
+            "s3",
+            "data",
+            "amazon",
+            "objects",
+            "service"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Create a walkthrough to upload, retrieve, and delete an archive in S3 Glacier using Python's Boto3 SDK.",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.07246376811594203,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.529597282409668,
+        "avg_distance": 0.7480231010554703,
+        "avg_reranker_score": 3.5484139919281006
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon S3 Glacier Developer Guide\n                Console.WriteLine(\"Downloaded {0}%\", args.PercentDone); \n            } \n        } \n    }\n}\nStep 5: D...",
+          "distance": 0.7544599069040014,
+          "reranker_score": 4.5246663093566895,
+          "chunk_id": "chunk_36",
+          "topics": [
+            "cli",
+            "delete",
+            "archive",
+            "aws",
+            "using"
+          ]
+        },
+        {
+          "content_preview": "Amazon S3 Glacier Developer Guide\nArchive Operations in Amazon S3 Glacier\nS3 Glacier supports the following basic archive operations: upload, download...",
+          "distance": 0.6884829464330845,
+          "reranker_score": 4.456335067749023,
+          "chunk_id": "chunk_116",
+          "topics": [
+            "archive",
+            "downloading",
+            "glacier",
+            "s3",
+            "upload"
+          ]
+        },
+        {
+          "content_preview": "Amazon S3 Glacier Developer Guide\nPython\nSDK for Python (Boto3)\nNote\nThere's more on GitHub. Find the complete example and learn how to set up and run...",
+          "distance": 0.7669872340974224,
+          "reranker_score": 3.4674556255340576,
+          "chunk_id": "chunk_271",
+          "topics": [
+            "archive",
+            "vault",
+            "id",
+            "s3",
+            "glacier"
+          ]
+        },
+        {
+          "content_preview": "Amazon S3 Glacier Developer Guide\nor write code. There is no console support for archive operations. For example, to upload \ndata, such as photos, vid...",
+          "distance": 0.7478274593563266,
+          "reranker_score": 2.7767622470855713,
+          "chunk_id": "chunk_11",
+          "topics": [
+            "aws",
+            "using",
+            "cli",
+            "glacier",
+            "s3"
+          ]
+        },
+        {
+          "content_preview": "Amazon S3 Glacier Developer Guide\nclass GlacierWrapper: \n    \"\"\"Encapsulates Amazon S3 Glacier API operations.\"\"\" \n    def __init__(self, glacier_reso...",
+          "distance": 0.7823579584865168,
+          "reranker_score": 2.516850709915161,
+          "chunk_id": "chunk_224",
+          "topics": [
+            "archive",
+            "sdk",
+            "code",
+            "delete",
+            "examples"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Explain the difference between S3 Glacier Instant Retrieval and S3 Glacier Deep Archive.",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.07692307692307693,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.5630950927734375,
+        "avg_distance": 0.630169326142506,
+        "avg_reranker_score": 6.316925430297852
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nDimension Description\n\u2022GlacierIRSizeOverhead  \u2013 The number of bytes used \nfor objects smaller than 128 KB in ...",
+          "distance": 0.5854674122106207,
+          "reranker_score": 6.668125152587891,
+          "chunk_id": "chunk_2021",
+          "topics": [
+            "s3",
+            "class",
+            "storage",
+            "object",
+            "objects"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nYou can transition  from the following:\n\u2022The S3 Standard storage class to any other storage class.\n\u2022The S3 St...",
+          "distance": 0.7051260226996323,
+          "reranker_score": 6.378767490386963,
+          "chunk_id": "chunk_1840",
+          "topics": [
+            "class",
+            "s3",
+            "storage",
+            "lifecycle",
+            "zone"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nSome S3 Glacier storage classes are archival, which means the objects stored in those classes are \narchived a...",
+          "distance": 0.5328418631124863,
+          "reranker_score": 6.36744499206543,
+          "chunk_id": "chunk_1818",
+          "topics": [
+            "s3",
+            "class",
+            "access",
+            "storage",
+            "data"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nThe minimum storage duration for objects in S3 Glacier Deep Archive storage class is 180 days.\nS3 Glacier Dee...",
+          "distance": 0.6337859363241539,
+          "reranker_score": 6.358253002166748,
+          "chunk_id": "chunk_1820",
+          "topics": [
+            "s3",
+            "copy",
+            "storage",
+            "object",
+            "class"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nthen transitions objects to S3 Glacier Deep Archive after 20 days. In this case the S3 Glacier Deep \nArchive ...",
+          "distance": 0.6936253963656365,
+          "reranker_score": 5.812036514282227,
+          "chunk_id": "chunk_1843",
+          "topics": [
+            "s3",
+            "class",
+            "objects",
+            "lifecycle",
+            "object"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "A company using S3 Glacier faces delays in job completion for data retrieval requests. What strategies can be implemented to speed up these processes?",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.06666666666666667,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.7021350860595703,
+        "avg_distance": 0.7595012784673808,
+        "avg_reranker_score": 1.4281632006168365
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon S3 Glacier Developer Guide\n\u2022Identity and Access Management for Amazon S3 Glacier\nInitiate Job (POST jobs)\nThis operation initiates the followin...",
+          "distance": 0.7645310466248143,
+          "reranker_score": 4.1714277267456055,
+          "chunk_id": "chunk_498",
+          "topics": [
+            "job",
+            "retrieval",
+            "initiate",
+            "inventory",
+            "archive"
+          ]
+        },
+        {
+          "content_preview": "Amazon S3 Glacier Developer Guide\n\u2022Request job information explicitly \u2013 You can also use the S3 Glacier Describe Job  API \noperation ( Describe Job (G...",
+          "distance": 0.7573350426497818,
+          "reranker_score": 3.3508195877075195,
+          "chunk_id": "chunk_149",
+          "topics": [
+            "retrieval",
+            "job",
+            "access",
+            "archives",
+            "information"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nPrevent uploading objects with identical key names during multipart upload\nYou can check for the existence of...",
+          "distance": 0.7644059297475959,
+          "reranker_score": 0.518376886844635,
+          "chunk_id": "chunk_162",
+          "topics": [
+            "multipart",
+            "upload",
+            "s3",
+            "class",
+            "delete"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n\u2022Storage overhead charges \u2013 When you transition objects to the S3 Glacier Flexible Retrieval \nor S3 Glacier D...",
+          "distance": 0.7656037796413022,
+          "reranker_score": -0.44622668623924255,
+          "chunk_id": "chunk_1845",
+          "topics": [
+            "s3",
+            "objects",
+            "object",
+            "data",
+            "storage"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nSome S3 Glacier storage classes are archival, which means the objects stored in those classes are \narchived a...",
+          "distance": 0.7456305936734097,
+          "reranker_score": -0.4535815119743347,
+          "chunk_id": "chunk_1818",
+          "topics": [
+            "s3",
+            "class",
+            "access",
+            "storage",
+            "data"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "How does Amazon S3 handle server-side encryption with KMS keys, and what are the required permissions for using SSE-KMS?",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.0684931506849315,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.486661911010742,
+        "avg_distance": 0.6590769439234604,
+        "avg_reranker_score": 7.1279457092285154
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nAll Amazon S3 buckets have encryption con\ufb01gured by default. The default option for server-side \nencryption is...",
+          "distance": 0.5574711324435033,
+          "reranker_score": 7.3246941566467285,
+          "chunk_id": "chunk_1312",
+          "topics": [
+            "encryption",
+            "kms",
+            "keys",
+            "server",
+            "sse"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nTopics\n\u2022Specifying server-side encryption with AWS KMS (SSE-KMS)\n\u2022Reducing the cost of SSE-KMS with Amazon S3...",
+          "distance": 0.6945226302020917,
+          "reranker_score": 7.254621982574463,
+          "chunk_id": "chunk_1352",
+          "topics": [
+            "kms",
+            "encryption",
+            "sse",
+            "keys",
+            "server"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service API Reference\nServer-Side Encryption Speci\ufb01c Request Form Fields\nServer-side encryption is data encryption at rest. Amaz...",
+          "distance": 0.706870160279577,
+          "reranker_score": 7.058931350708008,
+          "chunk_id": "chunk_2666",
+          "topics": [
+            "encryption",
+            "kms",
+            "server",
+            "data",
+            "s3"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nkey. For more information about SSE-S3, see Using server-side encryption with Amazon \nS3 managed keys (SSE-S3...",
+          "distance": 0.6065194128646569,
+          "reranker_score": 7.043586730957031,
+          "chunk_id": "chunk_2292",
+          "topics": [
+            "kms",
+            "key",
+            "sse",
+            "keys",
+            "aws"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service API Reference\nName Description Required\nx-amz-server-\nside-encryptio \nnSpeci\ufb01es the server-side encryption algorithm to ...",
+          "distance": 0.730001383827473,
+          "reranker_score": 6.957894325256348,
+          "chunk_id": "chunk_2667",
+          "topics": [
+            "kms",
+            "server",
+            "aws",
+            "value",
+            "encryption"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "A REST API request to create a bucket using the `CreateBucket` API fails with a `400 Malformed XML` error. Identify possible causes.",
+      "metrics": {
+        "precision": 0.8,
+        "recall": 0.15384615384615385,
+        "mrr": 0.5,
+        "ndcg": 0.7606395682357036,
+        "avg_time": 2.8901848793029785,
+        "avg_distance": 0.8419030902751776,
+        "avg_reranker_score": -0.8445582985877991
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon Simple Storage Service API Reference\nREST request signing problems\nWhen REST request authentication fails, the system responds to the request w...",
+          "distance": 0.8505240713018648,
+          "reranker_score": 1.4470826387405396,
+          "chunk_id": "chunk_2900",
+          "topics": [
+            "request",
+            "signature",
+            "parameters",
+            "requests",
+            "using"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nUsing the AWS CLI\nThe following example creates a bucket noti\ufb01cation con\ufb01guration for bucket amzn-s3-demo-\nbu...",
+          "distance": 0.838667040498416,
+          "reranker_score": -0.4117956757545471,
+          "chunk_id": "chunk_2076",
+          "topics": [
+            "amazon",
+            "bucket",
+            "enabled",
+            "s3",
+            "using"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service API Reference\nwest-2:123456789012:outpost/my-outpost/bucket/reports . The value must be URL \nencoded.\nType: String\nLengt...",
+          "distance": 0.8463684981786337,
+          "reranker_score": -0.6888691186904907,
+          "chunk_id": "chunk_791",
+          "topics": [
+            "outposts",
+            "bucket",
+            "length",
+            "http",
+            "status"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service API Reference\nFor a general introduction to the list operation, see the Listing Object Keys.\nRequests\nThis example lists...",
+          "distance": 0.8432913868342807,
+          "reranker_score": -2.0457801818847656,
+          "chunk_id": "chunk_2844",
+          "topics": [
+            "bucket",
+            "signature",
+            "xml",
+            "requests",
+            "object"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service API Reference\nImportant\nReplacement must be made for object keys containing special characters (such as carriage \nreturn...",
+          "distance": 0.8306644545626927,
+          "reranker_score": -2.5234291553497314,
+          "chunk_id": "chunk_2877",
+          "topics": [
+            "id",
+            "signature",
+            "key",
+            "owner",
+            "xml"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "A user is experiencing slow access to S3 buckets across regions. Explain how to leverage S3 Transfer Acceleration to address this.",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.06493506493506493,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.6344704627990723,
+        "avg_distance": 0.7361461984880948,
+        "avg_reranker_score": 2.7839419841766357
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nUsing the S3 console\nNote\nIf you want to compare accelerated and non-accelerated upload speeds, open the  Ama...",
+          "distance": 0.732916564838238,
+          "reranker_score": 3.902675151824951,
+          "chunk_id": "chunk_113",
+          "topics": [
+            "choose",
+            "cli",
+            "s3",
+            "aws",
+            "console"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n\u2022US West (N. California) (us-west-1)\n\u2022US West (Oregon) (us-west-2)\n\u2022To access the bucket that is enabled for ...",
+          "distance": 0.7248543455407443,
+          "reranker_score": 3.473369598388672,
+          "chunk_id": "chunk_110",
+          "topics": [
+            "s3",
+            "bucket",
+            "use",
+            "amazon",
+            "data"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service API Reference\nPutBucketAccelerateCon\ufb01guration\nService: Amazon S3\nNote\nThis operation is not supported by directory bucke...",
+          "distance": 0.7577534337251237,
+          "reranker_score": 2.3719089031219482,
+          "chunk_id": "chunk_492",
+          "topics": [
+            "bucket",
+            "permissions",
+            "data",
+            "s3",
+            "owner"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n\u2022You can't use all of your available bandwidth over the internet when uploading to Amazon S3.\nFor more inform...",
+          "distance": 0.7499577344553707,
+          "reranker_score": 2.1159281730651855,
+          "chunk_id": "chunk_109",
+          "topics": [
+            "requests",
+            "using",
+            "bucket",
+            "s3",
+            "information"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nAfter Transfer Acceleration is enabled, it can take up to 20 minutes for you to realize the \nperformance bene...",
+          "distance": 0.7152489138809976,
+          "reranker_score": 2.055828094482422,
+          "chunk_id": "chunk_112",
+          "topics": [
+            "s3",
+            "use",
+            "using",
+            "bucket",
+            "aws"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Write a tutorial for using the `ListObjectsV2` API to list objects in an S3 bucket, including paginated results.",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.09090909090909091,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.904592514038086,
+        "avg_distance": 0.749671232000426,
+        "avg_reranker_score": 4.459926462173462
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon Simple Storage Service API Reference\n            await ListingObjectsAsync(s3Client, BucketName); \n        } \n        /// <summary> \n        //...",
+          "distance": 0.7170734000877991,
+          "reranker_score": 5.42421817779541,
+          "chunk_id": "chunk_2061",
+          "topics": [
+            "bucketname",
+            "param",
+            "client",
+            "response",
+            "list"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service API Reference\n    /** \n     * Asynchronously lists all objects in the specified S3 bucket. \n     * \n     * @param bucket...",
+          "distance": 0.694729125628712,
+          "reranker_score": 4.962039470672607,
+          "chunk_id": "chunk_2067",
+          "topics": [
+            "import",
+            "objects",
+            "bucketname",
+            "public",
+            "list"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service API Reference\n    }\n}\n\u2022For API details, see ListObjectsV2 in AWS SDK for Java 2.x API Reference.\nJavaScript\nSDK for Java...",
+          "distance": 0.6945522084940577,
+          "reranker_score": 4.747598648071289,
+          "chunk_id": "chunk_2069",
+          "topics": [
+            "client",
+            "bucketname",
+            "list",
+            "objects",
+            "s3client"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service API Reference\nListObjectsV2\nService: Amazon S3\nReturns some or all (up to 1,000) of the objects in a bucket with each re...",
+          "distance": 0.8397481156849029,
+          "reranker_score": 3.8384857177734375,
+          "chunk_id": "chunk_444",
+          "topics": [
+            "permissions",
+            "directory",
+            "bucket",
+            "buckets",
+            "operation"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service API Reference\n/// and then retrieves the object and prints some S3 information about the \n object.\n/// This shows a numb...",
+          "distance": 0.8022533101066578,
+          "reranker_score": 3.3272902965545654,
+          "chunk_id": "chunk_1648",
+          "topics": [
+            "client",
+            "object",
+            "key",
+            "bucket",
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "What are the differences between the `PutBucketPolicy` and `PutBucketAcl` APIs, and when should each be used?",
+      "metrics": {
+        "precision": 0.8,
+        "recall": 0.3333333333333333,
+        "mrr": 0.5,
+        "ndcg": 0.7606395682357036,
+        "avg_time": 2.834803581237793,
+        "avg_distance": 0.8743517061701536,
+        "avg_reranker_score": -1.9949654579162597
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon Simple Storage Service API Reference\n\u2022PutAccessPointPolicy\n\u2022PutAccessPointPolicyForObjectLambda\n\u2022PutBucketLifecycleCon\ufb01guration\n\u2022PutBucketPolic...",
+          "distance": 0.9467625070619745,
+          "reranker_score": -1.3911536931991577,
+          "chunk_id": "chunk_755",
+          "topics": [
+            "control",
+            "api",
+            "amazon",
+            "s3",
+            "01"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service API Reference\n\u2022Use PutBucketAccelerateCon\ufb01guration with an AWS SDK or CLI\n\u2022Use PutBucketAcl with an AWS SDK or CLI\n\u2022Use ...",
+          "distance": 0.7492946129639597,
+          "reranker_score": -1.7599066495895386,
+          "chunk_id": "chunk_1765",
+          "topics": [
+            "cli",
+            "use",
+            "sdk",
+            "aws",
+            "examples"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service API Reference\n\u2022PutBucketIntelligentTieringCon\ufb01guration\n\u2022PutBucketInventoryCon\ufb01guration\n\u2022PutBucketLifecycle\n\u2022PutBucketLif...",
+          "distance": 0.9032483326844805,
+          "reranker_score": -1.9397895336151123,
+          "chunk_id": "chunk_19",
+          "topics": [
+            "api",
+            "amazon",
+            "s3",
+            "01",
+            "version"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n\u2022GetBucketRequestPayment\n\u2022GetBucketTagging\n\u2022GetBucketVersioning\n\u2022GetBucketWebsite\n\u2022HeadBucket\n\u2022ListBuckets\n\u2022P...",
+          "distance": 0.9261745930006406,
+          "reranker_score": -2.4263155460357666,
+          "chunk_id": "chunk_1935",
+          "topics": [
+            "action",
+            "object",
+            "bucket",
+            "operations",
+            "con\ufb01guration"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service API Reference\n         \nSample Response for general purpose buckets\nThis example illustrates one usage of PutBucketPolic...",
+          "distance": 0.8462784851397125,
+          "reranker_score": -2.4576618671417236,
+          "chunk_id": "chunk_591",
+          "topics": [
+            "sdk",
+            "aws",
+            "v3",
+            "v2",
+            "amz"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "A `DeleteObject` API call succeeds but leaves a delete marker in a versioning-enabled bucket. Why is this happening?",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.06944444444444445,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 3.0013768672943115,
+        "avg_distance": 0.6837748303186507,
+        "avg_reranker_score": 3.316142702102661
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n\u2022If the version ID maps to the delete marker of an object, Amazon S3 deletes the delete marker. \nWhen the del...",
+          "distance": 0.5567823091959441,
+          "reranker_score": 4.410607814788818,
+          "chunk_id": "chunk_273",
+          "topics": [
+            "delete",
+            "enabled",
+            "bucket",
+            "request",
+            "object"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service API Reference\n         \nSample Request for general purpose buckets: Deleting an object from a versioned bucket\nIf you de...",
+          "distance": 0.726996781923583,
+          "reranker_score": 3.2367963790893555,
+          "chunk_id": "chunk_174",
+          "topics": [
+            "delete",
+            "object",
+            "request",
+            "bucket",
+            "amz"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\ndelete marker in the bucket, and that marker becomes the current version of the object with a \nnew ID.\nWhen y...",
+          "distance": 0.563416311049675,
+          "reranker_score": 3.225435733795166,
+          "chunk_id": "chunk_1684",
+          "topics": [
+            "delete",
+            "object",
+            "version",
+            "objects",
+            "following"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nIf you make a GetObject  call on an object by specifying a versionId  in your request, and if \nthe speci\ufb01ed v...",
+          "distance": 0.7903553387038973,
+          "reranker_score": 3.1834511756896973,
+          "chunk_id": "chunk_1689",
+          "topics": [
+            "delete",
+            "request",
+            "objects",
+            "object",
+            "version"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nI want to permanently delete versioned objects\nIn a versioning-enabled bucket, a DELETE request without a ver...",
+          "distance": 0.7813234107201543,
+          "reranker_score": 2.5244224071502686,
+          "chunk_id": "chunk_1703",
+          "topics": [
+            "delete",
+            "lifecycle",
+            "objects",
+            "object",
+            "id"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Discuss how to configure cross-region replication for an S3 bucket using the S3 Control API.",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.06172839506172839,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.9827187061309814,
+        "avg_distance": 0.7499524929011238,
+        "avg_reranker_score": 6.30157470703125
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nTo create a one-way replication rule for your Multi-Region Access Point\n1. Sign in to the AWS Management Cons...",
+          "distance": 0.7953418879999778,
+          "reranker_score": 6.6925859451293945,
+          "chunk_id": "chunk_1625",
+          "topics": [
+            "replication",
+            "buckets",
+            "create",
+            "multi",
+            "choose"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nCRR and the destination Region\nAmazon S3 Cross-Region Replication (CRR) is used to copy objects across S3 buc...",
+          "distance": 0.7396802336223586,
+          "reranker_score": 6.624683856964111,
+          "chunk_id": "chunk_1449",
+          "topics": [
+            "replication",
+            "region",
+            "batch",
+            "s3",
+            "objects"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service API Reference\nChange Description Release \nDate\nCross-region replicati \nonAmazon S3 now supports cross-region replication...",
+          "distance": 0.7790921312076534,
+          "reranker_score": 6.270754337310791,
+          "chunk_id": "chunk_2811",
+          "topics": [
+            "region",
+            "guide",
+            "new",
+            "user",
+            "amazon"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n\u2022Managing multi-Region tra\ufb03c with Multi-Region Access Points\n\u2022Retaining multiple versions of objects with S3 ...",
+          "distance": 0.6460835267435657,
+          "reranker_score": 6.105208396911621,
+          "chunk_id": "chunk_1437",
+          "topics": [
+            "replication",
+            "region",
+            "objects",
+            "use",
+            "buckets"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n\u2022Replication time control (RTC) \u2013 To replicate your data across di\ufb00erent Regions \nwithin a predictable time f...",
+          "distance": 0.7895646849320634,
+          "reranker_score": 5.814640998840332,
+          "chunk_id": "chunk_1627",
+          "topics": [
+            "replication",
+            "rule",
+            "delete",
+            "bucket",
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Guide users through the process of using the `SelectObjectContent` API to query CSV data stored in an S3 bucket.",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.14705882352941177,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.89091420173645,
+        "avg_distance": 0.7370855540712358,
+        "avg_reranker_score": 4.674567413330078
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon Simple Storage Service API Reference\nFor a complete list of AWS SDK developer guides and code examples, see Developing with Amazon \nS3 using th...",
+          "distance": 0.6452305452265963,
+          "reranker_score": 4.9040045738220215,
+          "chunk_id": "chunk_2224",
+          "topics": [
+            "cli",
+            "object",
+            "aws",
+            "complete",
+            "example"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n        OutputSerialization outputSerialization = new OutputSerialization(); \n        outputSerialization.set...",
+          "distance": 0.7716380279119861,
+          "reranker_score": 4.785644054412842,
+          "chunk_id": "chunk_607",
+          "topics": [
+            "s3",
+            "amazon",
+            "new",
+            "data",
+            "using"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n7. To extract records from the chosen object, under SQL query, enter the SELECT SQL \ncommands. For more infor...",
+          "distance": 0.8020019550832347,
+          "reranker_score": 4.770630836486816,
+          "chunk_id": "chunk_604",
+          "topics": [
+            "import",
+            "amazonaws",
+            "com",
+            "s3",
+            "object"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service API Reference\nSelectObjectContent\nService: Amazon S3\nNote\nThis operation is not supported by directory buckets.\nThis act...",
+          "distance": 0.6461952251918968,
+          "reranker_score": 4.67033576965332,
+          "chunk_id": "chunk_700",
+          "topics": [
+            "s3",
+            "amazon",
+            "objects",
+            "permissions",
+            "encryption"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nimport com.amazonaws.services.s3.model.SelectObjectContentResult;\nimport java.io.File;\nimport java.io.FileOut...",
+          "distance": 0.8203620169424651,
+          "reranker_score": 4.242221832275391,
+          "chunk_id": "chunk_605",
+          "topics": [
+            "import",
+            "string",
+            "new",
+            "public",
+            "amazonaws"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "How can presigned URLs be used to provide temporary access to S3 objects, and what are the security implications?",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.07462686567164178,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.6763579845428467,
+        "avg_distance": 0.8024367164464368,
+        "avg_reranker_score": 4.390214681625366
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon S3 on Outposts User Guide\nWhen you create a presigned URL by using the AWS SDKs or the AWS Command Line Interface \n(AWS CLI), you associate the...",
+          "distance": 0.8015015448016387,
+          "reranker_score": 6.194411277770996,
+          "chunk_id": "chunk_106",
+          "topics": [
+            "url",
+            "presigned",
+            "action",
+            "vpc",
+            "access"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nYou can use the presigned URL multiple times, up to the expiration date and time.\nWhen you create a presigned...",
+          "distance": 0.8213607634490443,
+          "reranker_score": 6.025033473968506,
+          "chunk_id": "chunk_313",
+          "topics": [
+            "create",
+            "object",
+            "objects",
+            "upload",
+            "iam"
+          ]
+        },
+        {
+          "content_preview": "Amazon S3 on Outposts User Guide\nNote\n\u2022If you created a presigned URL by using a temporary token, the URL expires when the \ntoken expires, even if you...",
+          "distance": 0.755276910782539,
+          "reranker_score": 5.4509806632995605,
+          "chunk_id": "chunk_100",
+          "topics": [
+            "presigned",
+            "url",
+            "objects",
+            "upload",
+            "using"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nTo generate a presigned URL by using the Amazon S3 console\n1. Sign in to the AWS Management Console and open ...",
+          "distance": 0.805648414076221,
+          "reranker_score": 2.1833748817443848,
+          "chunk_id": "chunk_317",
+          "topics": [
+            "aws",
+            "s3",
+            "cli",
+            "choose",
+            "console"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service API Reference\nx-amz-trailer-\nsignature:41e14ac611e27a8bb3d66c3bad6856f209297767d5dd4fc87d8fa9e422e03faf\nAuthenticating R...",
+          "distance": 0.8283959491227412,
+          "reranker_score": 2.097273111343384,
+          "chunk_id": "chunk_2632",
+          "topics": [
+            "amz",
+            "signature",
+            "parameters",
+            "example",
+            "using"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "A web application is unable to connect to an S3 bucket due to incorrect CORS settings. Describe the steps to debug and fix the issue.",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.0625,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.699018955230713,
+        "avg_distance": 0.7314251573167562,
+        "avg_reranker_score": 0.21312907040119172
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n403 Forbidden error: CORS is not enabled for this bucket\nThe following 403 Forbidden  error occurs when a cro...",
+          "distance": 0.5275510862393124,
+          "reranker_score": 1.2335143089294434,
+          "chunk_id": "chunk_2372",
+          "topics": [
+            "request",
+            "con\ufb01guration",
+            "rule",
+            "bucket",
+            "enabled"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nStep 1: Create an S3 bucket\nCreate a bucket to store the original video that you plan to stream.\nTo create a ...",
+          "distance": 0.7746050233085946,
+          "reranker_score": 0.29294613003730774,
+          "chunk_id": "chunk_2380",
+          "topics": [
+            "bucket",
+            "settings",
+            "public",
+            "create",
+            "s3"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nNow that an S3 Bucket Key is enabled at the bucket level, objects that are uploaded, modi\ufb01ed, or \ncopied into...",
+          "distance": 0.7983684930352939,
+          "reranker_score": 0.016730070114135742,
+          "chunk_id": "chunk_474",
+          "topics": [
+            "encryption",
+            "choose",
+            "destination",
+            "bucket",
+            "objects"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nIf you see an error that says Policy has invalid resource , con\ufb01rm that the bucket name \nin the bucket policy...",
+          "distance": 0.7940635892461927,
+          "reranker_score": -0.153340682387352,
+          "chunk_id": "chunk_2340",
+          "topics": [
+            "bucket",
+            "acls",
+            "owner",
+            "control",
+            "access"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nmodifying object con\ufb01gurations. When you perform these operations, you specify the bucket that \nyou want to u...",
+          "distance": 0.7625375947543878,
+          "reranker_score": -0.3242044746875763,
+          "chunk_id": "chunk_1247",
+          "topics": [
+            "owner",
+            "bucket",
+            "operations",
+            "account",
+            "use"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "What are the key features of Amazon S3 Intelligent-Tiering, and how can it help optimize storage costs?",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.0641025641025641,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.836465358734131,
+        "avg_distance": 0.6250637483906718,
+        "avg_reranker_score": 6.83452091217041
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon Simple Storage Service API Reference\nGetBucketIntelligentTieringCon\ufb01guration\nService: Amazon S3\nNote\nThis operation is not supported by directo...",
+          "distance": 0.6184337522511505,
+          "reranker_score": 6.985761642456055,
+          "chunk_id": "chunk_211",
+          "topics": [
+            "access",
+            "storage",
+            "s3",
+            "data",
+            "parameters"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service API Reference\nListBucketIntelligentTieringCon\ufb01gurations\nService: Amazon S3\nNote\nThis operation is not supported by direc...",
+          "distance": 0.6122827686625364,
+          "reranker_score": 6.944616317749023,
+          "chunk_id": "chunk_392",
+          "topics": [
+            "access",
+            "storage",
+            "s3",
+            "data",
+            "parameters"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nCost optimization\nAmazon S3 o\ufb00ers a range of features and storage classes to help you optimize costs througho...",
+          "distance": 0.552002356788971,
+          "reranker_score": 6.876996994018555,
+          "chunk_id": "chunk_1728",
+          "topics": [
+            "data",
+            "s3",
+            "zone",
+            "lifecycle",
+            "storage"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service API Reference\nDeleteBucketIntelligentTieringCon\ufb01guration\nService: Amazon S3\nNote\nThis operation is not supported by dire...",
+          "distance": 0.6802269800786049,
+          "reranker_score": 6.871376991271973,
+          "chunk_id": "chunk_129",
+          "topics": [
+            "access",
+            "storage",
+            "s3",
+            "data",
+            "parameters"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service API Reference\nPutBucketIntelligentTieringCon\ufb01guration\nService: Amazon S3\nNote\nThis operation is not supported by directo...",
+          "distance": 0.6623728841720957,
+          "reranker_score": 6.493852615356445,
+          "chunk_id": "chunk_525",
+          "topics": [
+            "access",
+            "s3",
+            "storage",
+            "objects",
+            "data"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "A lifecycle rule to transition objects to S3 Glacier fails to execute. What are common configuration issues?",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.056818181818181816,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.815493106842041,
+        "avg_distance": 0.730987001004632,
+        "avg_reranker_score": 0.010577458143234252
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nNote\nIn September 2024 Amazon S3 updated the default transition behavior for small objects, \nas follows:\n\u2022Upd...",
+          "distance": 0.7293208380112679,
+          "reranker_score": 3.5875918865203857,
+          "chunk_id": "chunk_1910",
+          "topics": [
+            "default",
+            "lifecycle",
+            "s3",
+            "objects",
+            "object"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nWhen you archive objects to Amazon S3 Glacier by using S3 Lifecycle management, Amazon S3 \ntransitions these ...",
+          "distance": 0.6810481642729271,
+          "reranker_score": 2.632755994796753,
+          "chunk_id": "chunk_1846",
+          "topics": [
+            "s3",
+            "amazon",
+            "objects",
+            "copy",
+            "object"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\ndata at the lowest costs in S3 Glacier Instant Retrieval, S3 Glacier Flexible Retrieval, and S3 Glacier \nDeep...",
+          "distance": 0.7540402959963234,
+          "reranker_score": 0.12261614203453064,
+          "chunk_id": "chunk_17",
+          "topics": [
+            "access",
+            "zone",
+            "s3",
+            "data",
+            "storage"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nconsecutive days of no access, the object moves into the Archive Access tier. After a minimum of \n180 consecu...",
+          "distance": 0.7624656908878977,
+          "reranker_score": -2.7692112922668457,
+          "chunk_id": "chunk_1817",
+          "topics": [
+            "s3",
+            "storage",
+            "access",
+            "class",
+            "data"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service API Reference\nRestoring Archives\nObjects in the GLACIER and DEEP_ARCHIVE storage classes are archived. To access an arch...",
+          "distance": 0.7280600158547438,
+          "reranker_score": -3.5208654403686523,
+          "chunk_id": "chunk_2677",
+          "topics": [
+            "data",
+            "access",
+            "object",
+            "complete",
+            "storage"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "A user faces issues accessing a public bucket due to an IAM Access Analyzer warning about public access. How should this be addressed?",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.07042253521126761,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.885270595550537,
+        "avg_distance": 0.5644151922038873,
+        "avg_reranker_score": 4.324033451080322
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nIf you don't want to block all public access to your bucket, you can edit your block public access \nsettings ...",
+          "distance": 0.466805496608252,
+          "reranker_score": 4.713576793670654,
+          "chunk_id": "chunk_1243",
+          "topics": [
+            "access",
+            "public",
+            "bucket",
+            "iam",
+            "s3"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nWhen reviewing an at-risk bucket in IAM Access Analyzer for S3, you can block all public access to \nthe bucke...",
+          "distance": 0.4494368898267962,
+          "reranker_score": 4.417409420013428,
+          "chunk_id": "chunk_1240",
+          "topics": [
+            "access",
+            "iam",
+            "public",
+            "account",
+            "bucket"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n\u2022Object Ownership \u2013 Keep the bucket-level setting Object Ownership  at the default Bucket owner \nenforced  se...",
+          "distance": 0.5900865420055637,
+          "reranker_score": 4.397782325744629,
+          "chunk_id": "chunk_838",
+          "topics": [
+            "access",
+            "public",
+            "iam",
+            "bucket",
+            "s3"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nIf you edit or remove a bucket ACL, a bucket policy, or an access point policy to remove public \nor shared ac...",
+          "distance": 0.6485371359204203,
+          "reranker_score": 4.119411945343018,
+          "chunk_id": "chunk_1245",
+          "topics": [
+            "bucket",
+            "access",
+            "public",
+            "choose",
+            "iam"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nAccess points\nAmazon S3 evaluates block public access settings slightly di\ufb00erently for access points compared...",
+          "distance": 0.667209896658404,
+          "reranker_score": 3.971986770629883,
+          "chunk_id": "chunk_1232",
+          "topics": [
+            "access",
+            "public",
+            "iam",
+            "point",
+            "s3"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Walk through setting up a Multi-Region Access Point for an S3 bucket to handle cross-region traffic.",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.07575757575757576,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.6261234283447266,
+        "avg_distance": 0.6758286626025322,
+        "avg_reranker_score": 5.358450603485108
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nUsing the S3 console\nTo create a Multi-Region Access Point\n1. Sign in to the AWS Management Console and open ...",
+          "distance": 0.7131280900232002,
+          "reranker_score": 5.759035587310791,
+          "chunk_id": "chunk_1594",
+          "topics": [
+            "multi",
+            "region",
+            "point",
+            "access",
+            "replication"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n\u2022eu-west-1\nThe following example command updates your current Multi-Region Access Point \nroute con\ufb01guration. ...",
+          "distance": 0.6640603461132579,
+          "reranker_score": 5.593197822570801,
+          "chunk_id": "chunk_1619",
+          "topics": [
+            "multi",
+            "region",
+            "point",
+            "access",
+            "command"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nAfter the Multi-Region Access Point routes the request to the closest-proximity bucket, Amazon S3 \nprocesses ...",
+          "distance": 0.6166781209709621,
+          "reranker_score": 5.416532039642334,
+          "chunk_id": "chunk_1614",
+          "topics": [
+            "multi",
+            "region",
+            "request",
+            "replication",
+            "point"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nCreating Multi-Region Access Points\nTo create a Multi-Region Access Point in Amazon S3, you do the following:...",
+          "distance": 0.6703468963938963,
+          "reranker_score": 5.098079681396484,
+          "chunk_id": "chunk_1587",
+          "topics": [
+            "multi",
+            "access",
+            "region",
+            "point",
+            "policy"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nby the Multi-Region Access Point and by each bucket underlying the Multi-Region Access Point.\nAppDataReader  ...",
+          "distance": 0.7149298595113439,
+          "reranker_score": 4.925407886505127,
+          "chunk_id": "chunk_1604",
+          "topics": [
+            "multi",
+            "access",
+            "point",
+            "region",
+            "public"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "How does S3 Object Lock help meet regulatory compliance, and what are the prerequisites for enabling it?",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.08333333333333333,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.587434768676758,
+        "avg_distance": 0.7119561581006023,
+        "avg_reranker_score": 2.5415348291397093
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nResilience in Amazon S3\nThe AWS global infrastructure is built around Regions and Availability Zones. AWS Reg...",
+          "distance": 0.7599513989178883,
+          "reranker_score": 3.463460922241211,
+          "chunk_id": "chunk_1428",
+          "topics": [
+            "lifecycle",
+            "objects",
+            "object",
+            "s3",
+            "aws"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nRetention modes\nS3 Object Lock provides two retention modes that apply di\ufb00erent levels of protection to your ...",
+          "distance": 0.7136274619559995,
+          "reranker_score": 2.9786744117736816,
+          "chunk_id": "chunk_1708",
+          "topics": [
+            "delete",
+            "settings",
+            "object",
+            "objects",
+            "s3"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nCon\ufb01guring S3 Object Lock\nWith Amazon S3 Object Lock, you can store objects in Amazon S3 by using a write-onc...",
+          "distance": 0.5669211862514585,
+          "reranker_score": 2.5477471351623535,
+          "chunk_id": "chunk_1716",
+          "topics": [
+            "object",
+            "s3",
+            "console",
+            "bucket",
+            "set"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nNote\nBypassing governance mode doesn't a\ufb00ect an object version's legal hold status. If an object \nversion has...",
+          "distance": 0.7360147267569678,
+          "reranker_score": 2.492672920227051,
+          "chunk_id": "chunk_1712",
+          "topics": [
+            "replication",
+            "object",
+            "s3",
+            "destination",
+            "source"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nallowing only encrypted connections over HTTPS (TLS) by using the aws:SecureTransport\ncondition in your Amazo...",
+          "distance": 0.7832660166206975,
+          "reranker_score": 1.2251187562942505,
+          "chunk_id": "chunk_1299",
+          "topics": [
+            "s3",
+            "object",
+            "using",
+            "data",
+            "aws"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "A script using AWS CLI for batch deleting objects in a bucket fails with an `InvalidAccessKeyId` error. What could cause this?",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.06097560975609756,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.595947027206421,
+        "avg_distance": 0.8210032722512061,
+        "avg_reranker_score": 1.3138687491416932
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n        System.out.format(\"Amazon S3 bucket: \\\"%s\\\" found.\", bucketName); \n   } \n   catch (S3Exception e) { \n...",
+          "distance": 0.8209850845442489,
+          "reranker_score": 2.8120574951171875,
+          "chunk_id": "chunk_701",
+          "topics": [
+            "directory",
+            "bucket",
+            "objects",
+            "command",
+            "cli"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nhas access permissions. To avoid this problem, the source bucket owner can grant other AWS \naccounts permissi...",
+          "distance": 0.815908509413236,
+          "reranker_score": 2.0002176761627197,
+          "chunk_id": "chunk_1560",
+          "topics": [
+            "replication",
+            "batch",
+            "objects",
+            "amazon",
+            "s3"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nYou can permanently delete an object by specifying the version that you want to delete. Only the \nowner of an...",
+          "distance": 0.8255285852845116,
+          "reranker_score": 0.8702961802482605,
+          "chunk_id": "chunk_1656",
+          "topics": [
+            "delete",
+            "object",
+            "bucket",
+            "new",
+            "s3"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nUsing the AWS CLI\nTo download objects from a Requester Pays bucket using the AWS CLI, you specify --request-\n...",
+          "distance": 0.8215821732473583,
+          "reranker_score": 0.707549512386322,
+          "chunk_id": "chunk_126",
+          "topics": [
+            "cli",
+            "request",
+            "aws",
+            "objects",
+            "object"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nImportant\nEnabling Object Lock also enables versioning for the bucket. After enabling \nyou must con\ufb01gure the ...",
+          "distance": 0.8210120087666763,
+          "reranker_score": 0.17922288179397583,
+          "chunk_id": "chunk_1281",
+          "topics": [
+            "bucket",
+            "object",
+            "create",
+            "cli",
+            "new"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Explain the impact of enabling S3 Requester Pays on network and billing configurations.",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.06329113924050633,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.3543541431427,
+        "avg_distance": 0.7245426266077608,
+        "avg_reranker_score": -3.5644980788230898
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nBilling and usage reporting for Amazon S3\nWhen using Amazon S3, you don't have to pay any upfront fees or com...",
+          "distance": 0.6068841458737295,
+          "reranker_score": -0.6029683947563171,
+          "chunk_id": "chunk_1729",
+          "topics": [
+            "tags",
+            "s3",
+            "aws",
+            "amazon",
+            "using"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nCost optimization\nAmazon S3 o\ufb00ers a range of features and storage classes to help you optimize costs througho...",
+          "distance": 0.7639159649900721,
+          "reranker_score": -3.3959007263183594,
+          "chunk_id": "chunk_1728",
+          "topics": [
+            "data",
+            "s3",
+            "zone",
+            "lifecycle",
+            "storage"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nAmazon S3 Replication and request rate performance guidelines\nWhen uploading and retrieving storage from Amaz...",
+          "distance": 0.7429639512030435,
+          "reranker_score": -4.4027485847473145,
+          "chunk_id": "chunk_1510",
+          "topics": [
+            "replication",
+            "request",
+            "requests",
+            "s3",
+            "amazon"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nUsing S3 Intelligent-Tiering\nYou can use the S3 Intelligent-Tiering storage class to automatically optimize s...",
+          "distance": 0.7711535096135854,
+          "reranker_score": -4.5200700759887695,
+          "chunk_id": "chunk_1809",
+          "topics": [
+            "class",
+            "s3",
+            "storage",
+            "data",
+            "using"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nFor more information about these requirements, see the Constraints  section of Transitioning \nobjects using S...",
+          "distance": 0.7377955613583732,
+          "reranker_score": -4.9008026123046875,
+          "chunk_id": "chunk_1915",
+          "topics": [
+            "lifecycle",
+            "objects",
+            "rule",
+            "s3",
+            "information"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "Provide a step-by-step guide to configure S3 Event Notifications to trigger an AWS Lambda function.",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.06756756756756757,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.440221071243286,
+        "avg_distance": 0.7019482686176405,
+        "avg_reranker_score": 3.9334206581115723
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n7. Choose Attach policies.\nStep 6: Create an S3 Object Lambda Access Point\nAn S3 Object Lambda Access Point p...",
+          "distance": 0.7039636194495877,
+          "reranker_score": 4.484212398529053,
+          "chunk_id": "chunk_397",
+          "topics": [
+            "lambda",
+            "point",
+            "choose",
+            "access",
+            "object"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nobject is uploaded, and the function uploads an object to the bucket, then the function \nindirectly triggers ...",
+          "distance": 0.6437995416309505,
+          "reranker_score": 4.266424179077148,
+          "chunk_id": "chunk_2039",
+          "topics": [
+            "lambda",
+            "s3",
+            "amazon",
+            "object",
+            "aws"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nTo set an SNS topic as the noti\ufb01cation destination for speci\ufb01c event types, add the\nTopicConfiguration .\n<Not...",
+          "distance": 0.710800515066619,
+          "reranker_score": 4.2580389976501465,
+          "chunk_id": "chunk_2052",
+          "topics": [
+            "id",
+            "lambda",
+            "string",
+            "destination",
+            "add"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nEnabling Amazon SNS, Amazon SQS, or Lambda noti\ufb01cations using the Amazon S3 console\nTo enable and con\ufb01gure ev...",
+          "distance": 0.7282775839492079,
+          "reranker_score": 3.5375325679779053,
+          "chunk_id": "chunk_2050",
+          "topics": [
+            "lambda",
+            "choose",
+            "destination",
+            "console",
+            "amazon"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nNote\nIf you have multiple failed event noti\ufb01cations due to deleted destinations you may receive \nthe Unable t...",
+          "distance": 0.7229000829918371,
+          "reranker_score": 3.1208951473236084,
+          "chunk_id": "chunk_2045",
+          "topics": [
+            "lambda",
+            "permissions",
+            "destination",
+            "amazon",
+            "console"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "What are the different checksum algorithms supported by S3, and how can they be used to ensure data integrity?",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.06666666666666667,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.3751463890075684,
+        "avg_distance": 0.7903602214176105,
+        "avg_reranker_score": 3.5091900706291197
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nETags\nEntity tags (ETags) for S3 Express One Zone are random alphanumeric strings and are not MD5 \nchecksums....",
+          "distance": 0.781156328387056,
+          "reranker_score": 6.573247909545898,
+          "chunk_id": "chunk_740",
+          "topics": [
+            "zone",
+            "copy",
+            "objects",
+            "s3",
+            "object"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nS3 additional checksum best practices\nS3 Express One Zone o\ufb00ers you the option to choose the checksum algorit...",
+          "distance": 0.7302233532234264,
+          "reranker_score": 5.697479248046875,
+          "chunk_id": "chunk_808",
+          "topics": [
+            "zone",
+            "aws",
+            "s3",
+            "class",
+            "data"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service API Reference\nOnly one checksum header can be speci\ufb01ed at a time. If you supply multiple checksum headers, \nthis request...",
+          "distance": 0.7966716821509939,
+          "reranker_score": 3.304915428161621,
+          "chunk_id": "chunk_747",
+          "topics": [
+            "header",
+            "amz",
+            "object",
+            "data",
+            "request"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service API Reference\nRequired: No\nCannedAccessControlList\nNote\nThis functionality is not supported by directory buckets.\nType: ...",
+          "distance": 0.8210124899550684,
+          "reranker_score": 2.70516300201416,
+          "chunk_id": "chunk_1491",
+          "topics": [
+            "required",
+            "valid",
+            "type",
+            "public",
+            "owner"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nowner uses policies or another access management tool, excluding ACLs. For more information, see\nControlling ...",
+          "distance": 0.8227372533715076,
+          "reranker_score": -0.7348552346229553,
+          "chunk_id": "chunk_829",
+          "topics": [
+            "acls",
+            "bucket",
+            "object",
+            "owner",
+            "data"
+          ]
+        }
+      ]
+    },
+    {
+      "question": "A user reports intermittent access issues to S3 objects in a private VPC endpoint. How can this be resolved?",
+      "metrics": {
+        "precision": 1.0,
+        "recall": 0.06578947368421052,
+        "mrr": 1.0,
+        "ndcg": 1.0,
+        "avg_time": 2.433312177658081,
+        "avg_distance": 0.8154635075866459,
+        "avg_reranker_score": -0.3875639259815216
+      },
+      "retrieved_docs": [
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nNo additional tiering charges apply when objects are moved between access tiers within the S3 \nIntelligent-Ti...",
+          "distance": 0.816614216874977,
+          "reranker_score": 1.1045832633972168,
+          "chunk_id": "chunk_1805",
+          "topics": [
+            "access",
+            "s3",
+            "data",
+            "class",
+            "objects"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nBlocking public access to your Amazon S3 storage\nThe Amazon S3 Block Public Access feature provides settings ...",
+          "distance": 0.8154663200277263,
+          "reranker_score": -0.19792070984840393,
+          "chunk_id": "chunk_1223",
+          "topics": [
+            "public",
+            "access",
+            "settings",
+            "point",
+            "account"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\n\u2022Provide access control options, such as bucket policies, access control lists (ACLs), and S3 Access \nPoints,...",
+          "distance": 0.7880683091136655,
+          "reranker_score": -0.4570099115371704,
+          "chunk_id": "chunk_22",
+          "topics": [
+            "object",
+            "bucket",
+            "s3",
+            "key",
+            "objects"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nUsing the S3 console\nAmazon S3 Block Public Access prevents the application of any settings that allow public...",
+          "distance": 0.8260556708898189,
+          "reranker_score": -0.6693612337112427,
+          "chunk_id": "chunk_1237",
+          "topics": [
+            "public",
+            "access",
+            "settings",
+            "s3",
+            "buckets"
+          ]
+        },
+        {
+          "content_preview": "Amazon Simple Storage Service User Guide\nset a lifecycle rule to expire. For instructions on how to change your Object Ownership setting, \nsee Setting...",
+          "distance": 0.831113021027041,
+          "reranker_score": -1.7181110382080078,
+          "chunk_id": "chunk_1053",
+          "topics": [
+            "access",
+            "object",
+            "owner",
+            "public",
+            "settings"
+          ]
+        }
+      ]
+    }
+  ]
+}
