@@ -2,13 +2,19 @@
 
 A research project demonstrating the transformative impact of metadata enrichment in retrieval-augmented generation (RAG) systems for improving information retrieval accuracy and response quality in large, unstructured documentation.
 
+![Architecturee](https://raw.githubusercontent.com/PranavMishra17/MetadataEnrichment-for-RAG/refs/heads/main/arch.png?token=GHSAT0AAAAAAC6BV6HJADNTMAEK65PC5TKWZ6YOJAA)
+
+[Project Poster]((https://github.com/PranavMishra17/MetadataEnrichment-for-RAG/blob/main/Final_Poster.pdf))
+
 ## Project Overview
 
 This project introduces a framework for metadata enrichment using large language models (LLMs) to improve accessibility and contextual relevance in enterprise documentation systems. The research focuses on AWS S3 documentation as a test case, developing and evaluating three distinct retrieval approaches:
 
 1. **Content-only Retriever**: Uses standard document chunks without enhancement
 2. **Combined Retriever**: Employs weighted retrieval (70% content, 30% metadata)
-3. **Elastic* Retriever**: Enhanced retrieval with reranking model applied to the combined method
+3. **Elastic Retriever**: Enhanced retrieval with reranking model applied to the combined method
+
+![Tools and software](https://raw.githubusercontent.com/PranavMishra17/MetadataEnrichment-for-RAG/refs/heads/main/image_2025-03-17_135848454.png?token=GHSAT0AAAAAAC6BV6HJOA25HYBQ3JVXRR6MZ6YOJSQ)
 
 ## Methodology
 
@@ -44,19 +50,25 @@ The system was evaluated using both:
    - Precision/Recall
    - Mean Reciprocal Rank (MRR)
    - Normalized Discounted Cumulative Gain (NDCG)
+  
+![Retriever Eval]((https://raw.githubusercontent.com/PranavMishra17/MetadataEnrichment-for-RAG/refs/heads/main/image_2025-03-17_135919328.png?token=GHSAT0AAAAAAC6BV6HITQMZHCMFO5Q5HPJOZ6YOKHQ))
+
 
 2. **Response Quality Evaluation**:
    - Faithfulness
    - Coverage
    - Hallucination Rate
 
+![Response Quality Eval](https://raw.githubusercontent.com/PranavMishra17/MetadataEnrichment-for-RAG/refs/heads/main/image_2025-03-17_135949824.png?token=GHSAT0AAAAAAC6BV6HJO6CQ3VDK7V46SLHSZ6YOK6Q)
+
 ## Authors
 
 This project was developed by a team at the University of Illinois Chicago, Liautaud Graduate School of Business:
-- Ramyashree Keshavamurthy
-- Kranti Prakash Yeole
-- Pranav Mishra
+- Pranav Mishra | [Linkedin](https://www.linkedin.com/in/pranavgamedev/)
+- Kranti Prakash Yeole | [Linkedin](https://www.linkedin.com/in/krantiyeole/)
+- Ramyashree Keshavamurthy | [Linkedin](https://www.linkedin.com/in/ramyashree-keshavamurthy/)
 - Professor Fatemeh Sarayloo (advisor)
+
 
 ## Acknowledgments
 
