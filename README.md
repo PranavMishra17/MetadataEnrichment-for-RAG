@@ -14,7 +14,7 @@ This project introduces a framework for metadata enrichment using large language
 2. **Combined Retriever**: Employs weighted retrieval (70% content, 30% metadata)
 3. **Elastic Retriever**: Enhanced retrieval with reranking model applied to the combined method
 
-![Tools and software](https://raw.githubusercontent.com/PranavMishra17/MetadataEnrichment-for-RAG/refs/heads/main/image_2025-03-17_135848454.png?token=GHSAT0AAAAAAC6BV6HJOA25HYBQ3JVXRR6MZ6YOJSQ)
+![Tools and software](https://github.com/PranavMishra17/MetadataEnrichment-for-RAG/blob/425960ac9680a3ccc542b10da304176c24898420/image_2025-03-17_135848454.png)
 
 ## Methodology
 
@@ -51,7 +51,7 @@ The system was evaluated using both:
    - Mean Reciprocal Rank (MRR)
    - Normalized Discounted Cumulative Gain (NDCG)
   
-![Retriever Eval]((https://raw.githubusercontent.com/PranavMishra17/MetadataEnrichment-for-RAG/refs/heads/main/image_2025-03-17_135919328.png?token=GHSAT0AAAAAAC6BV6HITQMZHCMFO5Q5HPJOZ6YOKHQ))
+![Retriever Eval](https://github.com/PranavMishra17/MetadataEnrichment-for-RAG/blob/425960ac9680a3ccc542b10da304176c24898420/image_2025-03-17_135919328.png)
 
 
 2. **Response Quality Evaluation**:
@@ -59,7 +59,7 @@ The system was evaluated using both:
    - Coverage
    - Hallucination Rate
 
-![Response Quality Eval](https://raw.githubusercontent.com/PranavMishra17/MetadataEnrichment-for-RAG/refs/heads/main/image_2025-03-17_135949824.png?token=GHSAT0AAAAAAC6BV6HJO6CQ3VDK7V46SLHSZ6YOK6Q)
+![Response Quality Eval](https://github.com/PranavMishra17/MetadataEnrichment-for-RAG/blob/425960ac9680a3ccc542b10da304176c24898420/image_2025-03-17_135949824.png)
 
 ## Authors
 
