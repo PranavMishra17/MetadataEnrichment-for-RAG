@@ -2,9 +2,9 @@
 
 A research project demonstrating the transformative impact of metadata enrichment in retrieval-augmented generation (RAG) systems for improving information retrieval accuracy and response quality in large, unstructured documentation.
 
-![Architecturee](https://raw.githubusercontent.com/PranavMishra17/MetadataEnrichment-for-RAG/refs/heads/main/arch.png?token=GHSAT0AAAAAAC6BV6HJADNTMAEK65PC5TKWZ6YOJAA)
+![Architecturee](https://raw.githubusercontent.com/PranavMishra17/MetadataEnrichment-for-RAG/refs/heads/main/arch.png)
 
-[Project Poster]((https://github.com/PranavMishra17/MetadataEnrichment-for-RAG/blob/main/Final_Poster.pdf))
+[Project Poster](https://github.com/PranavMishra17/MetadataEnrichment-for-RAG/blob/main/Final_Poster.pdf)
 
 ## Project Overview
 
