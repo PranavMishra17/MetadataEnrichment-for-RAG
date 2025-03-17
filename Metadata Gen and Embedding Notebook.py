@@ -47,7 +47,7 @@ load_dotenv(find_dotenv())
 # Azure OpenAI Configuration
 OPENAI_API_KEY = os.getenv("AZURE_OPENAI_API_KEY")
 OPENAI_API_TYPE = "Azure"
-OPENAI_API_BASE = "https://testopenaisaturday.openai.azure.com/"
+OPENAI_API_BASE = "here"
 OPENAI_API_VERSION = "2023-10-01-preview"
 
 # Configure OpenAI
