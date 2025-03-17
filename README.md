@@ -2,13 +2,19 @@
 
 A research project demonstrating the transformative impact of metadata enrichment in retrieval-augmented generation (RAG) systems for improving information retrieval accuracy and response quality in large, unstructured documentation.
 
+![Architecture](https://github.com/PranavMishra17/MetadataEnrichment-for-RAG/blob/8cf89a5ff5f83c48d349ec0b415c28b10bd7f0c6/arch.png)
+
+[Project Poster](https://github.com/PranavMishra17/MetadataEnrichment-for-RAG/blob/main/Final_Poster.pdf)
+
 ## Project Overview
 
 This project introduces a framework for metadata enrichment using large language models (LLMs) to improve accessibility and contextual relevance in enterprise documentation systems. The research focuses on AWS S3 documentation as a test case, developing and evaluating three distinct retrieval approaches:
 
 1. **Content-only Retriever**: Uses standard document chunks without enhancement
 2. **Combined Retriever**: Employs weighted retrieval (70% content, 30% metadata)
-3. **Elastic* Retriever**: Enhanced retrieval with reranking model applied to the combined method
+3. **Elastic Retriever**: Enhanced retrieval with reranking model applied to the combined method
+
+![Tools and software](https://github.com/PranavMishra17/MetadataEnrichment-for-RAG/blob/425960ac9680a3ccc542b10da304176c24898420/image_2025-03-17_135848454.png)
 
 ## Methodology
 
@@ -44,19 +50,25 @@ The system was evaluated using both:
    - Precision/Recall
    - Mean Reciprocal Rank (MRR)
    - Normalized Discounted Cumulative Gain (NDCG)
+  
+![Retriever Eval](https://github.com/PranavMishra17/MetadataEnrichment-for-RAG/blob/425960ac9680a3ccc542b10da304176c24898420/image_2025-03-17_135919328.png)
+
 
 2. **Response Quality Evaluation**:
    - Faithfulness
    - Coverage
    - Hallucination Rate
 
+![Response Quality Eval](https://github.com/PranavMishra17/MetadataEnrichment-for-RAG/blob/425960ac9680a3ccc542b10da304176c24898420/image_2025-03-17_135949824.png)
+
 ## Authors
 
 This project was developed by a team at the University of Illinois Chicago, Liautaud Graduate School of Business:
-- Ramyashree Keshavamurthy
-- Kranti Prakash Yeole
-- Pranav Mishra
+- Pranav Mishra | [Linkedin](https://www.linkedin.com/in/pranavgamedev/)
+- Kranti Prakash Yeole | [Linkedin](https://www.linkedin.com/in/krantiyeole/)
+- Ramyashree Keshavamurthy | [Linkedin](https://www.linkedin.com/in/ramyashree-keshavamurthy/)
 - Professor Fatemeh Sarayloo (advisor)
+
 
 ## Acknowledgments
 
